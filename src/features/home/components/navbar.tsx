@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-const navigation = ["Home", "Menu", "About", "Reservation", "Reviews", "Contact"];
+const navigation = ["Home", "Menu", "About", "Reviews", "Contact"];
 
 export function Navbar({ activePage = "home" }: { activePage?: "home" | "menu" | "about" }) {
   const [open, setOpen] = useState(false);
@@ -141,9 +141,9 @@ export function Navbar({ activePage = "home" }: { activePage?: "home" | "menu" |
         <Link href="/#home" className="brand flex shrink-0 items-center gap-2.5" aria-label="Restro home" onClick={() => setOpen(false)}>
           <span className="wordmark">RESTRO<span>THE ART OF GATHERING</span></span>
         </Link>
-        <nav className="desktop-nav editorial-nav-left" aria-label="Main navigation"><ul className="flex items-center">{links(navigation.slice(0, 3))}</ul></nav>
-        <nav className="desktop-nav editorial-nav-right" aria-label="Restaurant navigation"><ul className="flex items-center">{links(navigation.slice(3))}</ul></nav>
-        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+        <nav className="desktop-nav navbar-pill" aria-label="Main navigation"><ul className="flex items-center">{links()}</ul></nav>
+        <div className="navbar-actions flex shrink-0 items-center gap-2 sm:gap-3">
+          <Link href="/#reservation" className="navbar-reserve" onClick={() => setOpen(false)}><span className="navbar-reserve-full">Reserve a Table</span><span className="navbar-reserve-short">Reserve</span></Link>
           <button ref={toggle} type="button" className="menu-toggle icon-button" aria-label={open ? "Close navigation menu" : "Open navigation menu"} aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>{open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}</button>
         </div>
       </div>

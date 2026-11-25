@@ -295,3 +295,57 @@ body:has(.reservation-booking-dialog[open]) { overflow: hidden; }
 
 }
 
+
+/* Reference-inspired navigation: left wordmark, centered glass pill, right action. */
+.site-header { border-bottom: 0; background: #100d0b38; }
+.site-header .navbar { min-height: 84px; }
+.navbar > .brand { position: static; transform: none; }
+.navbar .wordmark { font-size: 24px; }
+.navbar .wordmark > span { font-size: 7px; }
+.navbar-actions { margin-left: auto; }
+.navbar-reserve { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 10px 19px; border: 1px solid #e1bd82; border-radius: 999px; background: #e1bd82; color: #17120e; font-size: 11px; font-weight: 500; white-space: nowrap; transition: background .2s; }
+.navbar-reserve:hover { background: #edcf9d; }
+.navbar-reserve:focus-visible { outline: 2px solid #e1bd82; outline-offset: 4px; }
+.navbar-reserve-short { display: none; }
+@media(min-width:1100px) {
+  .site-header .navbar { position: relative; display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; }
+  .navbar > .brand { position: static; transform: none; justify-self: start; }
+  .navbar-actions { justify-self: end; margin: 0; }
+  .navbar-pill { margin: 0; padding: 4px; border: 1px solid #e1bd8238; border-radius: 999px; background: #ffffff0b; box-shadow: inset 0 1px 0 #ffffff0a; }
+  .navbar-pill ul { gap: 2px; }
+  .navbar-pill .nav-link { min-height: 34px; padding: 8px 15px; border-radius: 999px; font-size: 11px; line-height: 18px; color: #ded7cc; }
+  .navbar-pill .nav-link:hover { color: #f5f1e8; background: #ffffff0d; }
+  .navbar-pill .nav-link-active,.navbar-pill .nav-link-active:hover { background: #f5f1e8; color: #17120e; box-shadow: 0 2px 8px #0002; }
+  .navbar-pill .nav-link-active::after { display: none; }
+}
+@media(max-width:639px) {
+  .site-header .navbar { min-height: 74px; }
+  .navbar .wordmark { font-size: 22px; }
+  .navbar .wordmark > span { font-size: 6px; letter-spacing: .17em; }
+  .navbar-reserve { min-height: 44px; padding: 10px 16px; }
+  .navbar-reserve-full { display: none; }
+  .navbar-reserve-short { display: inline; }
+  .navbar .menu-toggle { border: 1px solid #e1bd8238; border-radius: 50%; }
+}
+@media(prefers-reduced-motion:reduce) { .navbar-reserve { transition: none; } }
+@media(min-width:1100px) { .site-header .navbar > .navbar-actions { display: flex; } }
+
+/* Shared gold text CTA sweep. Background-only motion leaves existing reveals/transforms intact. */
+:is(.yellow-button:not(.review-arrow),.reservation-scene-button,.navbar-reserve) {
+  border-color: transparent;
+  background-clip: padding-box;
+  background-color: transparent;
+  background-image: linear-gradient(to right,#563a28 0% 50%,#e1bd82 50% 100%);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 200% 100%;
+  transition: background-position 400ms cubic-bezier(.22,.68,.18,1),color 400ms cubic-bezier(.22,.68,.18,1),transform .2s,box-shadow .2s;
+}
+@media(hover:hover) and (pointer:fine) {
+  :is(.yellow-button:not(.review-arrow),.reservation-scene-button,.navbar-reserve):not(:disabled):hover { background-color: transparent; background-position: left center; color: #f5f1e8; }
+}
+:is(.yellow-button:not(.review-arrow),.reservation-scene-button,.navbar-reserve):not(:disabled):is(:focus-visible,:active) { background-color: transparent; background-position: left center; color: #f5f1e8; }
+@media(prefers-reduced-motion:reduce) {
+  :is(.yellow-button:not(.review-arrow),.reservation-scene-button,.navbar-reserve) { transition: none; }
+}
+

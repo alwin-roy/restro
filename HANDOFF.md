@@ -1019,6 +1019,43 @@ This status supersedes older appearance/cart descriptions below; historical impl
 
 
 ---
+### 2026-11-25 — Reference-inspired rounded navigation
+
+- Updated `src/features/home/components/navbar.tsx` and `src/app/cinematic.css` to follow the supplied navigation design: left-aligned RESTRO wordmark, centered translucent rounded desktop link group, ivory active pill and right-aligned champagne Reserve a Table link. Existing six destinations, active-route states, mobile menu/Escape handling and homepage promotional-section visibility threshold preserved. Right action uses the existing reservation anchor; mobile shows a compact Reserve label beside the menu toggle. No language/account features invented from the reference.
+- Validation: TypeScript, targeted ESLint and production build passed. Added `scripts/check-navbar-design.mjs`; live Chrome verified320/390/768/1100/1440px layouts, exact desktop centering, all six links, mobile open/Escape, reservation anchor/popup and no horizontal overflow. Inspected desktop capture. Earlier performance source fingerprints are historical baseline evidence, not assertions about this newly authorized visual redesign.
+
+---
+### 2026-11-25 — Removed Reservation navigation link
+
+- Removed Reservation from the shared desktop/mobile navigation list in `navbar.tsx`. Home, Menu, About, Reviews and Contact remain; the separate Reserve a Table action and reservation scene/form are retained.
+- Updated `scripts/check-navbar-design.mjs` to expect five links. Chrome checks passed across320/390/768/1100/1440px, including desktop centering, mobile navigation and the reservation action/popup.
+
+---
+### 2026-11-25 — Approved gold-to-espresso text button sweep
+
+- Updated only `src/app/cinematic.css` to add a shared background-size sweep to gold text CTAs: champagne #e1bd82 at rest, espresso #563a28 filling left-to-right on hover/focus/press, ivory #f5f1e8 text/icons. Duration400ms, easing cubic-bezier(.22,.68,.18,1), smooth reverse on exit. Covers promotional/menu/About links, navbar/scene reservation actions, Add Review and form submit/confirm buttons. Carousel arrows and non-gold controls excluded; disabled buttons do not sweep. Existing sizes, borders, transforms/reveals, labels and actions retained; no JS loops/assets added.
+- Fine-pointer hover is media-gated to avoid sticky hover on touch; touch uses pressed feedback and keyboard retains focus-visible styling. Reduced motion switches immediately. Native dialog Escape correctly restores the keyboard-focused trigger's filled state; a touch close restores the gold state.
+- Validation: production build/TypeScript and full ESLint passed. Chrome checked intermediate/completed/reversed hover states on six main CTA types, ivory text, keyboard focus, reduced motion, review/reservation popup actions and submission styling. Separate touch-only test verified close/reopen behavior with no sticky sweep; About CTA also checked. Initial touch test used keyboard Escape and was corrected to distinguish intentional focus-visible behavior from touch hover.
+
+---
+### 2026-11-25 — Removed visible CTA sweep borders
+
+- Set the shared text-CTA border color to transparent in `src/app/cinematic.css`. Retained border width to preserve exact button dimensions, while removing the visible outline at rest/hover. Color sweep and accessible focus outlines remain unchanged.
+- Validation: live Chrome confirmed transparent border in both states and completed background sweep. Only stylesheet and handoff changed.
+
+---
+### 2026-11-25 — Fixed gold bleed around swept buttons
+
+- Added background-clip:padding-box to the shared CTA sweep in `src/app/cinematic.css`. Transparent borders previously allowed the gold base background to paint beneath the border area; clipping removes that visible gold edge without changing dimensions or focus outlines.
+- Validation: Chrome checked promotional hover computed styles and captured/inspected the completed brown button. No other behavior changed.
+
+---
+### 2026-11-25 — Eliminated rounded-corner gold underlay
+
+- Replaced the overlapping gold base/brown overlay in the shared CTA sweep with one hard-stop two-color gradient over a transparent base. Background position now animates right-to-left, producing the same left-to-right color fill without gold beneath the antialiased brown corners. Duration/easing, dimensions, focus and touch behavior retained.
+- Validation: live Chrome verified transparent base, completed brown position and reversed gold position; captured completed promotional button. Only `cinematic.css` and handoff changed.
+
+---
 ## H. Next Steps
 
 - Reservation previews and browser-local review previews are implemented. Await explicit instructions before adding backend reservation submission/availability, review moderation/publication, customer accounts or persistence beyond browser-local reviews.
@@ -1061,6 +1098,12 @@ Whenever you complete a development task:
 5. Record any errors, limitations, or unfinished work.
 6. Verify the documentation accurately reflects the codebase.
 7. Include a brief handoff summary in your final response to the user.
+
+
+
+
+
+
 
 
 
