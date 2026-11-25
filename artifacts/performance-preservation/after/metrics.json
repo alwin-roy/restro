@@ -1,0 +1,680 @@
+[
+  {
+    "width": 1440,
+    "run": 0,
+    "readyMs": 664.6977000000002,
+    "cold": {
+      "resourceBytes": 4133639,
+      "draws": 1,
+      "decodes": 13,
+      "rectReads": 17,
+      "maxBitmapBytes": 47923200,
+      "bitmapBytes": 47923200,
+      "maxPending": 0,
+      "maxCache": 0
+    },
+    "scroll": {
+      "rAFFrames": 739,
+      "intervalP50": 16.69999999999891,
+      "intervalP95": 17,
+      "over34ms": 11,
+      "frameLagP95": 246
+    },
+    "counters": {
+      "draws": 442,
+      "decodes": 1214,
+      "rectReads": 17,
+      "maxBitmapBytes": 70041600,
+      "bitmapBytes": 66355200,
+      "maxPending": 4,
+      "maxCache": 18,
+      "longTaskCount": 1,
+      "longTaskMs": 108,
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "1",
+      "cachedFrames": "18",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "-1",
+      "progress": "0.00000",
+      "memoryBytes": "70451200",
+      "time": "0.00000",
+      "renderedFrame": "1"
+    },
+    "cpu": {
+      "ScriptDuration": 0.747819,
+      "TaskDuration": 6.802757,
+      "LayoutDuration": 0.033196,
+      "RecalcStyleDuration": 0.210738,
+      "LayoutCount": 106,
+      "JSHeapUsedSize": 8347512
+    },
+    "requests": 2995,
+    "frameRequests": 2955,
+    "duplicateFrameRequests": 1337,
+    "wrongVariantRequests": 0,
+    "failedRequests": 186,
+    "errors": [],
+    "snapshots": [
+      {
+        "name": "hero",
+        "file": "1440-hero.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.00000",
+          "memoryBytes": "70451200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 1280,
+          "height": 800,
+          "pixel": [
+            23,
+            20,
+            6,
+            255
+          ]
+        }
+      },
+      {
+        "name": "offers",
+        "file": "1440-offers.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "208",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.13720",
+          "memoryBytes": "70451200",
+          "time": "6.92963",
+          "renderedFrame": "208",
+          "width": 1280,
+          "height": 800,
+          "pixel": [
+            30,
+            15,
+            0,
+            255
+          ]
+        }
+      },
+      {
+        "name": "menu",
+        "file": "1440-menu.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "586",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.26556",
+          "memoryBytes": "70451200",
+          "time": "19.52905",
+          "renderedFrame": "586",
+          "width": 1280,
+          "height": 800,
+          "pixel": [
+            67,
+            48,
+            25,
+            255
+          ]
+        }
+      },
+      {
+        "name": "reservation",
+        "file": "1440-reservation.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1031",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.59353",
+          "memoryBytes": "70451200",
+          "time": "34.33582",
+          "renderedFrame": "1031",
+          "width": 1280,
+          "height": 800,
+          "pixel": [
+            17,
+            16,
+            7,
+            255
+          ]
+        }
+      },
+      {
+        "name": "contact",
+        "file": "1440-contact.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1519",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.87904",
+          "memoryBytes": "70451200",
+          "time": "50.61937",
+          "renderedFrame": "1519",
+          "width": 1280,
+          "height": 800,
+          "pixel": [
+            21,
+            16,
+            11,
+            255
+          ]
+        }
+      }
+    ],
+    "warm": {
+      "resourceBytes": 30020,
+      "draws": 1,
+      "decodes": 13,
+      "rectReads": 24,
+      "maxBitmapBytes": 47923200,
+      "bitmapBytes": 47923200,
+      "maxPending": 0,
+      "maxCache": 0
+    }
+  },
+  {
+    "width": 1440,
+    "run": 1,
+    "readyMs": 419.8839999999982,
+    "cold": {
+      "resourceBytes": 4133639,
+      "draws": 1,
+      "decodes": 13,
+      "rectReads": 17,
+      "maxBitmapBytes": 47923200,
+      "bitmapBytes": 47923200,
+      "maxPending": 0,
+      "maxCache": 0
+    },
+    "scroll": {
+      "rAFFrames": 779,
+      "intervalP50": 16.69999999999891,
+      "intervalP95": 16.800000000000182,
+      "over34ms": 1,
+      "frameLagP95": 216
+    },
+    "counters": {
+      "draws": 643,
+      "decodes": 1556,
+      "rectReads": 17,
+      "maxBitmapBytes": 70041600,
+      "bitmapBytes": 66355200,
+      "maxPending": 4,
+      "maxCache": 18,
+      "longTaskCount": 1,
+      "longTaskMs": 105,
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "1",
+      "cachedFrames": "18",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "-1",
+      "progress": "0.00000",
+      "memoryBytes": "70451200",
+      "time": "0.00000",
+      "renderedFrame": "1"
+    },
+    "cpu": {
+      "ScriptDuration": 0.968153,
+      "TaskDuration": 7.083939,
+      "LayoutDuration": 0.031098999999999988,
+      "RecalcStyleDuration": 0.190932,
+      "LayoutCount": 107,
+      "JSHeapUsedSize": 8043788
+    },
+    "requests": 3145,
+    "frameRequests": 3105,
+    "duplicateFrameRequests": 1463,
+    "wrongVariantRequests": 0,
+    "failedRequests": 111,
+    "errors": [],
+    "warm": {
+      "resourceBytes": 30020,
+      "draws": 1,
+      "decodes": 13,
+      "rectReads": 24,
+      "maxBitmapBytes": 47923200,
+      "bitmapBytes": 47923200,
+      "maxPending": 0,
+      "maxCache": 0
+    }
+  },
+  {
+    "width": 1440,
+    "run": 2,
+    "readyMs": 429.4570999999996,
+    "cold": {
+      "resourceBytes": 4133639,
+      "draws": 1,
+      "decodes": 13,
+      "rectReads": 17,
+      "maxBitmapBytes": 47923200,
+      "bitmapBytes": 47923200,
+      "maxPending": 0,
+      "maxCache": 0
+    },
+    "scroll": {
+      "rAFFrames": 778,
+      "intervalP50": 16.69999999999891,
+      "intervalP95": 16.800000000000182,
+      "over34ms": 1,
+      "frameLagP95": 81
+    },
+    "counters": {
+      "draws": 637,
+      "decodes": 1534,
+      "rectReads": 17,
+      "maxBitmapBytes": 70041600,
+      "bitmapBytes": 66355200,
+      "maxPending": 4,
+      "maxCache": 18,
+      "longTaskCount": 1,
+      "longTaskMs": 103,
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "1",
+      "cachedFrames": "18",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "-1",
+      "progress": "0.00000",
+      "memoryBytes": "70451200",
+      "time": "0.00000",
+      "renderedFrame": "1"
+    },
+    "cpu": {
+      "ScriptDuration": 0.9787149999999999,
+      "TaskDuration": 7.113996,
+      "LayoutDuration": 0.031126000000000015,
+      "RecalcStyleDuration": 0.19722499999999998,
+      "LayoutCount": 106,
+      "JSHeapUsedSize": 7840504
+    },
+    "requests": 3146,
+    "frameRequests": 3106,
+    "duplicateFrameRequests": 1461,
+    "wrongVariantRequests": 0,
+    "failedRequests": 112,
+    "errors": [],
+    "warm": {
+      "resourceBytes": 30020,
+      "draws": 1,
+      "decodes": 13,
+      "rectReads": 24,
+      "maxBitmapBytes": 47923200,
+      "bitmapBytes": 47923200,
+      "maxPending": 0,
+      "maxCache": 0
+    }
+  },
+  {
+    "width": 390,
+    "run": 0,
+    "readyMs": 354.77880000000005,
+    "cold": {
+      "resourceBytes": 1729426,
+      "draws": 1,
+      "decodes": 9,
+      "rectReads": 17,
+      "maxBitmapBytes": 18662400,
+      "bitmapBytes": 18662400,
+      "maxPending": 0,
+      "maxCache": 0
+    },
+    "scroll": {
+      "rAFFrames": 774,
+      "intervalP50": 16.69999999999891,
+      "intervalP95": 16.80000000000109,
+      "over34ms": 2,
+      "frameLagP95": 112
+    },
+    "counters": {
+      "draws": 674,
+      "decodes": 1604,
+      "rectReads": 17,
+      "maxBitmapBytes": 26956800,
+      "bitmapBytes": 24883200,
+      "maxPending": 3,
+      "maxCache": 12,
+      "longTaskCount": 2,
+      "longTaskMs": 125,
+      "fallback": "none",
+      "status": "ready",
+      "variant": "mobile",
+      "targetFrame": "1",
+      "cachedFrames": "12",
+      "pendingFrames": "0",
+      "totalFrames": "1340",
+      "direction": "-1",
+      "progress": "0.00000",
+      "memoryBytes": "26287200",
+      "time": "0.00000",
+      "renderedFrame": "1"
+    },
+    "cpu": {
+      "ScriptDuration": 1.2772139999999998,
+      "TaskDuration": 7.110971,
+      "LayoutDuration": 0.029522000000000007,
+      "RecalcStyleDuration": 0.194865,
+      "LayoutCount": 88,
+      "JSHeapUsedSize": 8175276
+    },
+    "requests": 2300,
+    "frameRequests": 2265,
+    "duplicateFrameRequests": 985,
+    "wrongVariantRequests": 0,
+    "failedRequests": 190,
+    "errors": [],
+    "snapshots": [
+      {
+        "name": "hero",
+        "file": "390-hero.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.00000",
+          "memoryBytes": "26287200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 390,
+          "height": 900,
+          "pixel": [
+            22,
+            20,
+            1,
+            255
+          ]
+        }
+      },
+      {
+        "name": "offers",
+        "file": "390-offers.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "170",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.08132",
+          "memoryBytes": "26287200",
+          "time": "7.07755",
+          "renderedFrame": "170",
+          "width": 390,
+          "height": 900,
+          "pixel": [
+            38,
+            20,
+            9,
+            255
+          ]
+        }
+      },
+      {
+        "name": "menu",
+        "file": "390-menu.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "619",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.34744",
+          "memoryBytes": "26287200",
+          "time": "25.76064",
+          "renderedFrame": "619",
+          "width": 390,
+          "height": 900,
+          "pixel": [
+            42,
+            30,
+            18,
+            255
+          ]
+        }
+      },
+      {
+        "name": "reservation",
+        "file": "390-reservation.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "826",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.60513",
+          "memoryBytes": "26287200",
+          "time": "34.38663",
+          "renderedFrame": "826",
+          "width": 390,
+          "height": 900,
+          "pixel": [
+            14,
+            14,
+            3,
+            255
+          ]
+        }
+      },
+      {
+        "name": "contact",
+        "file": "390-contact.png",
+        "state": {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1218",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.79371",
+          "memoryBytes": "26287200",
+          "time": "50.74796",
+          "renderedFrame": "1218",
+          "width": 390,
+          "height": 900,
+          "pixel": [
+            18,
+            17,
+            6,
+            255
+          ]
+        }
+      }
+    ],
+    "warm": {
+      "resourceBytes": 9741,
+      "draws": 1,
+      "decodes": 9,
+      "rectReads": 17,
+      "maxBitmapBytes": 18662400,
+      "bitmapBytes": 18662400,
+      "maxPending": 0,
+      "maxCache": 0
+    }
+  },
+  {
+    "width": 390,
+    "run": 1,
+    "readyMs": 368.2563999999984,
+    "cold": {
+      "resourceBytes": 1729426,
+      "draws": 2,
+      "decodes": 9,
+      "rectReads": 17,
+      "maxBitmapBytes": 18662400,
+      "bitmapBytes": 18662400,
+      "maxPending": 0,
+      "maxCache": 0
+    },
+    "scroll": {
+      "rAFFrames": 779,
+      "intervalP50": 16.69999999999891,
+      "intervalP95": 16.80000000000109,
+      "over34ms": 1,
+      "frameLagP95": 27
+    },
+    "counters": {
+      "draws": 706,
+      "decodes": 1674,
+      "rectReads": 17,
+      "maxBitmapBytes": 26956800,
+      "bitmapBytes": 24883200,
+      "maxPending": 3,
+      "maxCache": 12,
+      "longTaskCount": 1,
+      "longTaskMs": 79,
+      "fallback": "none",
+      "status": "ready",
+      "variant": "mobile",
+      "targetFrame": "1",
+      "cachedFrames": "12",
+      "pendingFrames": "0",
+      "totalFrames": "1340",
+      "direction": "-1",
+      "progress": "0.00000",
+      "memoryBytes": "26287200",
+      "time": "0.00000",
+      "renderedFrame": "1"
+    },
+    "cpu": {
+      "ScriptDuration": 1.1378309999999998,
+      "TaskDuration": 6.919594,
+      "LayoutDuration": 0.03281800000000001,
+      "RecalcStyleDuration": 0.212713,
+      "LayoutCount": 89,
+      "JSHeapUsedSize": 6756004
+    },
+    "requests": 2366,
+    "frameRequests": 2331,
+    "duplicateFrameRequests": 1089,
+    "wrongVariantRequests": 0,
+    "failedRequests": 183,
+    "errors": [],
+    "warm": {
+      "resourceBytes": 10309,
+      "draws": 1,
+      "decodes": 9,
+      "rectReads": 17,
+      "maxBitmapBytes": 18662400,
+      "bitmapBytes": 18662400,
+      "maxPending": 0,
+      "maxCache": 0
+    }
+  },
+  {
+    "width": 390,
+    "run": 2,
+    "readyMs": 415.56200000000536,
+    "cold": {
+      "resourceBytes": 1729426,
+      "draws": 2,
+      "decodes": 9,
+      "rectReads": 24,
+      "maxBitmapBytes": 18662400,
+      "bitmapBytes": 18662400,
+      "maxPending": 0,
+      "maxCache": 0
+    },
+    "scroll": {
+      "rAFFrames": 776,
+      "intervalP50": 16.69999999999891,
+      "intervalP95": 16.80000000000109,
+      "over34ms": 1,
+      "frameLagP95": 21
+    },
+    "counters": {
+      "draws": 716,
+      "decodes": 1690,
+      "rectReads": 24,
+      "maxBitmapBytes": 26956800,
+      "bitmapBytes": 24883200,
+      "maxPending": 3,
+      "maxCache": 12,
+      "longTaskCount": 1,
+      "longTaskMs": 105,
+      "fallback": "none",
+      "status": "ready",
+      "variant": "mobile",
+      "targetFrame": "1",
+      "cachedFrames": "12",
+      "pendingFrames": "0",
+      "totalFrames": "1340",
+      "direction": "-1",
+      "progress": "0.00000",
+      "memoryBytes": "26287200",
+      "time": "0.00000",
+      "renderedFrame": "1"
+    },
+    "cpu": {
+      "ScriptDuration": 1.121508,
+      "TaskDuration": 6.690462,
+      "LayoutDuration": 0.028259000000000006,
+      "RecalcStyleDuration": 0.197096,
+      "LayoutCount": 91,
+      "JSHeapUsedSize": 8520960
+    },
+    "requests": 2391,
+    "frameRequests": 2356,
+    "duplicateFrameRequests": 1095,
+    "wrongVariantRequests": 0,
+    "failedRequests": 178,
+    "errors": [],
+    "warm": {
+      "resourceBytes": 10309,
+      "draws": 1,
+      "decodes": 9,
+      "rectReads": 17,
+      "maxBitmapBytes": 18662400,
+      "bitmapBytes": 18662400,
+      "maxPending": 0,
+      "maxCache": 0
+    }
+  }
+]

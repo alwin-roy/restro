@@ -1,0 +1,334 @@
+[
+  {
+    "file": "src/app/about/page.tsx",
+    "sha256": "ec2863b2a36d894f8c1e95ba349641ed45737bc9fc753455e6e0993c9bcfa439"
+  },
+  {
+    "file": "src/app/cinematic.css",
+    "sha256": "2b2bf29142b8541369fd55bc0ae8cc4065c4b2e3a7a100ff953001b469dc169a"
+  },
+  {
+    "file": "src/app/favicon.ico",
+    "sha256": "c28fdd2a4f31e2dc64f653962286da5c82a4cdfc518b242d32812c624e9a19a4"
+  },
+  {
+    "file": "src/app/globals.css",
+    "sha256": "578f5d3e0197414c2590dbd72962d911675293a29de37132b5b910d91f7897a7"
+  },
+  {
+    "file": "src/app/layout.tsx",
+    "sha256": "e2ebf35b5ee05914e36705988a9f025fea76afa40804abc6d841cea3af89e4ec"
+  },
+  {
+    "file": "src/app/menu/layout.tsx",
+    "sha256": "1dc6f11a53af2dd65d6681750585d98dd07102966370e233f46c9b2fb76bcc7b"
+  },
+  {
+    "file": "src/app/menu/page.tsx",
+    "sha256": "c59bdf6a9bed78e96b5e166fbf6fc43b3e4a409733c1526650e4d921d7b7712d"
+  },
+  {
+    "file": "src/app/menu/[category]/not-found.tsx",
+    "sha256": "700dee01141b41fd4e3b6b283eeda5c929270b0765d8344ec7c0d876c5e3d7cc"
+  },
+  {
+    "file": "src/app/menu/[category]/page.tsx",
+    "sha256": "e6379b25542dbf01a5e360e2847038b608619f444cce65814ead50d587d5ddb7"
+  },
+  {
+    "file": "src/app/page.tsx",
+    "sha256": "34e5454ca96613bac9ed4a5c4a3224b7189572a6aec71fab37d819dd267bd11e"
+  },
+  {
+    "file": "src/components/about/AboutCTA.tsx",
+    "sha256": "68a0e7786b1b94a85ec6d0080c1cf13b838eff9d37c7931526e44c4c4f42af7d"
+  },
+  {
+    "file": "src/components/about/AboutMedia.tsx",
+    "sha256": "3dae85193718d8cf71d276999c6ca79f4a3f887fa5eb5b6f16474b21a3f039c8"
+  },
+  {
+    "file": "src/components/about/AboutStory.tsx",
+    "sha256": "c8763a0e0e76d92cecce126989e87f7852ef112262f0227a3d9d318e2f5497c7"
+  },
+  {
+    "file": "src/components/about/RestaurantValues.tsx",
+    "sha256": "59d0bb4a156f561eee621f541bd66925ba501868d6a8d0a5255038602b03d508"
+  },
+  {
+    "file": "src/components/about/StoryTimeline.tsx",
+    "sha256": "df0052d9b9fa430c8e46078fc70d06a7bff36761c7179b719da4d732045345d7"
+  },
+  {
+    "file": "src/components/cinematic/CinematicBackground.tsx",
+    "sha256": "eeb4347c94253950e9ed310055d58713fa2c70bde4904cd8dadaa1f311557bb7"
+  },
+  {
+    "file": "src/components/contact/ContactInfoCard.tsx",
+    "sha256": "5df9f7dc3d166febe0e115ba6793a37dd4c3c869141d11c7193151bf8b1b80c3"
+  },
+  {
+    "file": "src/components/contact/ContactSection.tsx",
+    "sha256": "433a15721718d402d5447e4cd03fa5b068c1c85ae47c291215a25d93591846e7"
+  },
+  {
+    "file": "src/components/contact/EnquiryForm.tsx",
+    "sha256": "31869a24ba4c4cb51b3084c4b05f359f310955f725ed7e164a6339dde9daa85e"
+  },
+  {
+    "file": "src/components/FoodMarquee.tsx",
+    "sha256": "d77800cce52434014e033cd802c4bf36c3c86ee73b494d1a5b4304e4c6f980c7"
+  },
+  {
+    "file": "src/components/layout/BackToTop.tsx",
+    "sha256": "983fd7bd76ba3f3416e3686c2f79d0bef2fb2e8bf65d933c89d7e39330ac2f9a"
+  },
+  {
+    "file": "src/components/layout/Footer.tsx",
+    "sha256": "d959c3afb3216a3257a2102b405ce588de770fd00faa2d2257171f4d02e4f9ad"
+  },
+  {
+    "file": "src/components/menu/CategoryFilters.tsx",
+    "sha256": "97a5139eecd1f4e30b0fef461a0a6a019832031f551a181118dc0eac20d3a3d6"
+  },
+  {
+    "file": "src/components/menu/CategoryNavigation.tsx",
+    "sha256": "061dc9c8ec48a1d137d18af479d2246ea0bfe84b22f8cd310e0763e3aa0ae28b"
+  },
+  {
+    "file": "src/components/menu/FoodCategoriesSection.tsx",
+    "sha256": "18fb7b359482f49bd24305819b480442bf49dd7bdb0d7bdf18fbb717dad23401"
+  },
+  {
+    "file": "src/components/menu/FoodCategoryCard.tsx",
+    "sha256": "6883bc9668d2892849c68952465de9bdc97e9db1fa4c7ec849e79dca65402e7f"
+  },
+  {
+    "file": "src/components/menu/FoodItemCard.tsx",
+    "sha256": "ab56610db19894f1fee34e251a110eb0a3b53a68c39112e801c172070af31edc"
+  },
+  {
+    "file": "src/components/menu/MenuFocusGrid.tsx",
+    "sha256": "c887373afce4863662bdbc37dfe24ce9fdc822b110d1f162eb87b39b9e38e72a"
+  },
+  {
+    "file": "src/components/offers/CarouselControls.tsx",
+    "sha256": "021aaacb4485f6604463ff85a089efa2d496f87b39f21d375e490ec62b6ed101"
+  },
+  {
+    "file": "src/components/offers/OfferCountdown.tsx",
+    "sha256": "2147ee61fc202bef5c8f5ac4405f153abb1bbe1218332b9222402936c9c2aee2"
+  },
+  {
+    "file": "src/components/offers/OffersCarousel.tsx",
+    "sha256": "1ca7f5491a5548228c91137b9f1b24a838ca7d980f2f2f003b8f006cdea30e4d"
+  },
+  {
+    "file": "src/components/offers/OfferSlide.tsx",
+    "sha256": "acc058fa29ad7fc27005796257b2e5114594b20cd53231484d28051a2f819e9c"
+  },
+  {
+    "file": "src/components/offers/PromotionalOffers.tsx",
+    "sha256": "01ff509bf50eb173c0809ea3af619781f76ad04397c9af9c141a1583ba96adb2"
+  },
+  {
+    "file": "src/components/reservation/ClockTimePicker.tsx",
+    "sha256": "6111c55b2253b1d761fcec3ed604bb20ec4116e684c35c45f74310587fa9a95e"
+  },
+  {
+    "file": "src/components/reservation/GuestCounter.tsx",
+    "sha256": "a8c00fea9d4139c43a054274c41f8aabd62bc3ee1ea0175db2cdfb598f58cb50"
+  },
+  {
+    "file": "src/components/reservation/ReservationExperience.tsx",
+    "sha256": "f5630c52147c8302f96d944e4492f9982b69beb19c2224fb03b3427ce0c0c468"
+  },
+  {
+    "file": "src/components/reservation/ReservationForm.tsx",
+    "sha256": "7d8ab7d86b250431f5b267025a1983a3879a3961530b1be6655a06c19bb1c556"
+  },
+  {
+    "file": "src/components/reservation/ReservationSection.tsx",
+    "sha256": "de2cf649cc2180ae9815fa1b1fa31cd2797395fda20b2b3aada9b57910e22231"
+  },
+  {
+    "file": "src/components/reviews/AddReviewDialog.tsx",
+    "sha256": "03339873599db7314e3610523056a2541ec754b41da9a589507b3e20e4a0b265"
+  },
+  {
+    "file": "src/components/reviews/ReviewCard.tsx",
+    "sha256": "1af5508f7702abeca741415756ab7308df6911ff207b0e1c7ceb0e3b39976d41"
+  },
+  {
+    "file": "src/components/reviews/ReviewsCarousel.tsx",
+    "sha256": "03fdacd55ee16c9c2478553d7358b68df46ac2eb3eb7b7c81a5642cc3ab892d1"
+  },
+  {
+    "file": "src/components/reviews/ReviewsSection.tsx",
+    "sha256": "52f30839ca52a2b132c0a6df839a1a65a7b724da7b0d42cc61171fb9904c7b6a"
+  },
+  {
+    "file": "src/components/reviews/StarRating.tsx",
+    "sha256": "57c171460b08841d5b2f58616fbfae14b244ab47b557280a30638abe343c8dfc"
+  },
+  {
+    "file": "src/components/ui/.gitkeep",
+    "sha256": "87f89c18f3b7cb851e77960782202841d6564c12a375f9836026c5e3483452d2"
+  },
+  {
+    "file": "src/components/ui/FoodEffects.tsx",
+    "sha256": "73a74454aef22b53cc6251cfeaa79b4bae90552bd542ce9dda6e041df3d2a43a"
+  },
+  {
+    "file": "src/components/ui/FoodSteam.tsx",
+    "sha256": "a34a4570c416486a1b184b68672e40f92637a4506300c79e6b62484159a1bde7"
+  },
+  {
+    "file": "src/components/ui/SocialIcon.tsx",
+    "sha256": "34939a481eca137b1eb58360e637a3ae7b71862d87696bf1a356001a1eb158b8"
+  },
+  {
+    "file": "src/data/about.ts",
+    "sha256": "895819939b138bd56300ced569e8c350a1b74de73128f250385ccab8c57108a0"
+  },
+  {
+    "file": "src/data/cinematicTimeline.ts",
+    "sha256": "7d07027d1ac70075b9714129563c0307c74651fcc447ab7df7ceefb749ed1507"
+  },
+  {
+    "file": "src/data/enquirySubjects.ts",
+    "sha256": "7f1d967fc8127c4ceb14a9d3cfc479404c5f89d200241c860c48ec1b3f32b4cf"
+  },
+  {
+    "file": "src/data/foodCategories.ts",
+    "sha256": "7b5869fc4d472fa2e398784e699cc8a4ed51be1c167a681aedd306e531df0e0a"
+  },
+  {
+    "file": "src/data/menu.ts",
+    "sha256": "8427772cf45a19938bd1bf3facfefd582556a77582e5ab0d9415862a234d67f2"
+  },
+  {
+    "file": "src/data/offers.ts",
+    "sha256": "d850933bfcb167b3a7a0a2ee3662255d7ef7b780db951a9ddf01b6e51b5cd70e"
+  },
+  {
+    "file": "src/data/restaurantContact.ts",
+    "sha256": "3cf19363819e32b5352db0fc6da69a82310e818682d2d27a8c4033787713fa00"
+  },
+  {
+    "file": "src/data/reviews.ts",
+    "sha256": "4fcca7bd31f01adaf2e23a95fab37231ccbba0b85b16836a0947172db10c5b23"
+  },
+  {
+    "file": "src/features/.gitkeep",
+    "sha256": "d2b4457b54be82d9588a7f71390817655aa1a3f49d63b5cb30d7d3b033a90c28"
+  },
+  {
+    "file": "src/features/home/components/hero.tsx",
+    "sha256": "a284acb024847061951b896b1a84e3cc94d01f7a94ba384149c84da90303df68"
+  },
+  {
+    "file": "src/features/home/components/navbar.tsx",
+    "sha256": "b99ec7b5dbd5d49f36005c5d5c07fb47f0fae4432afa77ff653121d54c075676"
+  },
+  {
+    "file": "src/features/home/components/shawarma-visual.tsx",
+    "sha256": "2fdce1b75eb03dcb0af65225eecacdfcdfe9cdd76baf3a23fe972314feca84ef"
+  },
+  {
+    "file": "src/features/home/lib/mascot-timeline.ts",
+    "sha256": "e08f4fb05447aec454f0c33a16e8f14cdd40d9c1666154971241198414ff8f8a"
+  },
+  {
+    "file": "src/hooks/.gitkeep",
+    "sha256": "5c0f4094c606afd59845fea381aa5ce5e5ed1705e8f605b7fcbdd5001c3ef386"
+  },
+  {
+    "file": "src/hooks/useOfferReveal.ts",
+    "sha256": "83c2289c3e61b53789bcb6b2e42d26388f3a3546d1d39f5270d2c7d8e69de968"
+  },
+  {
+    "file": "src/lib/cinematic/canvas-controller.ts",
+    "sha256": "83f9f9701544b7e7e981fbd44a755760d18134b9a470223061a3d5916ef73e15"
+  },
+  {
+    "file": "src/lib/cinematic/frame-sequence.ts",
+    "sha256": "98714b788571e955d5c84d0062440672e62ae1ba964100cd23e434b05edebf01"
+  },
+  {
+    "file": "src/lib/cinematic/scroll-mapping.ts",
+    "sha256": "c33f46920b162655a758396714525d17dd2c877fb44d67b928223080b370add8"
+  },
+  {
+    "file": "src/lib/contact.ts",
+    "sha256": "8bf47486e480fd4e8a954c5679670b9026ad89fbdb9090042bd08609993139ef"
+  },
+  {
+    "file": "src/lib/currency.ts",
+    "sha256": "fc95ac243901c59d451efc8eba0ee763c23e8bb614f16de608564b9e2ba0769f"
+  },
+  {
+    "file": "src/lib/offers-carousel.ts",
+    "sha256": "dceaf6c56030f2970fcfb84cc3b8945e57d6c5eb0bb8911db579aa5f0d03e0f1"
+  },
+  {
+    "file": "src/lib/reservation-time.ts",
+    "sha256": "58fd15a28f71ed553d3284d01e96c3ac7818597c2dc9714825c15b0e29813c3b"
+  },
+  {
+    "file": "src/lib/reviews.ts",
+    "sha256": "f1301544514fbba4f4b418bdf3e97a55e8ee4b18d9b3f602bbad64826b8bf78e"
+  },
+  {
+    "file": "src/lib/utils.ts",
+    "sha256": "fc3b6d10986b198da61b637689e64816c9eb8d8e4aa812c540a3bf9f457a3027"
+  },
+  {
+    "file": "src/lib/validations/enquiry.ts",
+    "sha256": "9734b522460a61b7553074b23060f48618eab837212d173976b239a5d65491e3"
+  },
+  {
+    "file": "src/lib/validations/reservation.ts",
+    "sha256": "b283401cfd415ccbb8ac8fc50459d109142fdbc2af85854ec436db44a696c2bc"
+  },
+  {
+    "file": "src/lib/validations/review.ts",
+    "sha256": "4825586572c9fe2fec35482d998220aafe5198d65890e5095af81c87699a8166"
+  },
+  {
+    "file": "src/types/enquiry.ts",
+    "sha256": "9bbdf2d3f6c7d300384241bc616bc79725793d19db89c8a66c390d5da556f076"
+  },
+  {
+    "file": "src/types/index.ts",
+    "sha256": "e4efc4086fae58b7a2e8ffcd744ebe75101263bcfa0f2564cd4d4a3e9c97baac"
+  },
+  {
+    "file": "src/types/menu.ts",
+    "sha256": "7a4e5792920023cef2c563636c133ae8770b0efeaa3280926ffff31247080c43"
+  },
+  {
+    "file": "src/types/offers.ts",
+    "sha256": "a81593fcb52fe81ebb37f78533059d58c1cb8c3acc8c4a074469d31667f8e0af"
+  },
+  {
+    "file": "src/types/reservation.ts",
+    "sha256": "599c40963b7cf134dc5a93da9a71c45c7866eb0925c513c550c814cdfa42b105"
+  },
+  {
+    "file": "src/types/review.ts",
+    "sha256": "d389ca9595b4a3be7006f1dd951aa9b2150bbc1b1f53f72dbaab85edaecc7f90"
+  },
+  {
+    "file": "next.config.ts",
+    "sha256": "17145a9822ec351b92b8a5f8d3a709a531c8690ed92d397a4405ae084ea9acc7"
+  },
+  {
+    "file": "package.json",
+    "sha256": "762e73180dad5fe134b03430c368959e927b4ac80113bcb30f8b8431f83dd01d"
+  },
+  {
+    "file": "package-lock.json",
+    "sha256": "9e19e9e51c932df8a6f86aac44d7cfee2244fe8097b8cab444cb05fe2d57603c"
+  }
+]

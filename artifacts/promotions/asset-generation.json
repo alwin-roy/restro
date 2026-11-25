@@ -1,0 +1,37 @@
+{
+  "tool": "Built-in image_gen",
+  "transparent_background": true,
+  "optimization": "1024px maximum, WebP quality 86, method 6, alpha preserved",
+  "items": [
+    {
+      "name": "burgers",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-7e6345cc-24d9-439f-9866-12ac5d3b9c5f.png",
+      "asset": "public/images/promotions/burgers-cutout.webp",
+      "prompt": "Create one premium photorealistic food advertising cutout for a restaurant website promotional banner. A towering appetizing cheeseburger with sesame brioche bun, melted cheddar, lettuce tomato and beef patty, with a small portion of golden fries and an unbranded glass of cola beside it. Burger is dominant. Restrained few floating sesame seeds. Warm studio key light, delicious realistic textures, editorial commercial food photography, cohesive amber highlights suitable for an espresso-black and champagne-gold website. Center the complete subject with generous transparent padding on all sides. Genuine transparent alpha background, no photographic backdrop, no rectangular background, no text, no lettering, no watermark, no branding, no theatrical splashes. Square composition. This is an illustrative food image, not documentation of a real restaurant dish."
+    },
+    {
+      "name": "shawarmas",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-283adb7f-d094-4180-b338-095f4c513599.png",
+      "asset": "public/images/promotions/shawarmas-cutout.webp",
+      "prompt": "Create one premium photorealistic food advertising cutout for a restaurant website promotional banner. Two toasted chicken shawarma wrap halves, one tilted to show juicy chicken, lettuce and garlic sauce filling. Small natural herb accents. Warm studio key light, delicious realistic textures, editorial commercial food photography, cohesive amber highlights suitable for an espresso-black and champagne-gold website. Center the complete subject with generous transparent padding on all sides. Genuine transparent alpha background, no photographic backdrop, no rectangular background, no text, no lettering, no watermark, no branding, no theatrical splashes. Square composition. This is an illustrative food image, not documentation of a real restaurant dish."
+    },
+    {
+      "name": "mandi",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-8b8dca6c-b95f-47c9-b7b4-562d8e0d42ed.png",
+      "asset": "public/images/promotions/mandi-cutout.webp",
+      "prompt": "Create one premium photorealistic food advertising cutout for a restaurant website promotional banner. A beautiful dark ceramic platter of aromatic mandi rice with roasted chicken, toasted nuts and subtle herb garnish. Entire platter visible at a three-quarter front view. Warm studio key light, delicious realistic textures, editorial commercial food photography, cohesive amber highlights suitable for an espresso-black and champagne-gold website. Center the complete subject with generous transparent padding on all sides. Genuine transparent alpha background, no photographic backdrop, no rectangular background, no text, no lettering, no watermark, no branding, no theatrical splashes. Square composition. This is an illustrative food image, not documentation of a real restaurant dish."
+    },
+    {
+      "name": "desserts",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-33903458-556a-4ffc-890c-f4c725a61fc9.png",
+      "asset": "public/images/promotions/desserts-cutout.webp",
+      "prompt": "Create one premium photorealistic food advertising cutout for a restaurant website promotional banner. A rich chocolate brownie with vanilla ice cream and glossy chocolate drizzle, three-quarter view, dark small dessert plate visible, entire composition isolated. Warm studio key light, delicious realistic textures, editorial commercial food photography, cohesive amber highlights suitable for an espresso-black and champagne-gold website. Center the complete subject with generous transparent padding on all sides. Genuine transparent alpha background, no photographic backdrop, no rectangular background, no text, no lettering, no watermark, no branding, no theatrical splashes. Square composition. This is an illustrative food image, not documentation of a real restaurant dish."
+    },
+    {
+      "name": "drinks",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-14b55ee6-cdb3-4a85-9fc2-bebe824801e2.png",
+      "asset": "public/images/promotions/drinks-cutout.webp",
+      "prompt": "Create one premium photorealistic food advertising cutout for a restaurant website promotional banner. An appetizing small group of three unbranded drinks: a creamy chocolate milkshake, a pink fruit cooler, and a mint lime cooler in clear glasses. Fruit and mint garnish. Entire glasses visible. Warm studio key light, delicious realistic textures, editorial commercial food photography, cohesive amber highlights suitable for an espresso-black and champagne-gold website. Center the complete subject with generous transparent padding on all sides. Genuine transparent alpha background, no photographic backdrop, no rectangular background, no text, no lettering, no watermark, no branding, no theatrical splashes. Square composition. This is an illustrative food image, not documentation of a real restaurant dish."
+    }
+  ]
+}

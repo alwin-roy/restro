@@ -1,0 +1,6 @@
+{
+  "method": "Simulated document.hidden and visibilitychange; actual headless background tab remained visible in separate test",
+  "hiddenFrameHeld": true,
+  "hiddenNewRequests": 0,
+  "resumed": true
+}

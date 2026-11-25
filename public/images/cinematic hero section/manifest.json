@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "duration": 55.833333,
+  "containerDuration": 55.935,
+  "source": {
+    "name": "restro_enhanced_clean.mp4",
+    "bytes": 181299777,
+    "sha256": "c8070fc1b29c9d139dd768c76cb6df26b0a96ae74b0f840bf8f6c16782dacd33",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "30/1"
+  },
+  "sceneAnchors": [
+    {
+      "time": 0,
+      "label": "Arrival"
+    },
+    {
+      "time": 3.2,
+      "label": "Enter Restro"
+    },
+    {
+      "time": 7,
+      "label": "Dining room"
+    },
+    {
+      "time": 19.5,
+      "label": "Open kitchen"
+    },
+    {
+      "time": 25,
+      "label": "Preparation"
+    },
+    {
+      "time": 34.5,
+      "label": "Table"
+    },
+    {
+      "time": 41.5,
+      "label": "Guests"
+    },
+    {
+      "time": 49.5,
+      "label": "Closing"
+    },
+    {
+      "time": 54,
+      "label": "Footer"
+    }
+  ],
+  "sceneNote": "Editorial anchors observed in continuous footage, not detected hard cuts.",
+  "sequences": {
+    "desktop": {
+      "frameCount": 1675,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "pattern": "/images/cinematic%20hero%20section/desktop/frame-%05d.webp",
+      "startIndex": 1,
+      "endIndex": 1675,
+      "totalBytes": 69301470,
+      "averageFrameBytes": 41374.01194029851,
+      "minFrameBytes": 21042,
+      "maxFrameBytes": 104938,
+      "quality": 80,
+      "compressionLevel": 6,
+      "lossless": false,
+      "encoder": "libwebp",
+      "verifiedDecodedFrames": 1675,
+      "blackFrames": [],
+      "processingSeconds": 263.72
+    },
+    "mobile": {
+      "frameCount": 1340,
+      "fps": 24,
+      "width": 960,
+      "height": 540,
+      "pattern": "/images/cinematic%20hero%20section/mobile/frame-%05d.webp",
+      "startIndex": 1,
+      "endIndex": 1340,
+      "totalBytes": 33877798,
+      "averageFrameBytes": 25281.93880597015,
+      "minFrameBytes": 12520,
+      "maxFrameBytes": 64068,
+      "quality": 75,
+      "compressionLevel": 6,
+      "lossless": false,
+      "encoder": "libwebp",
+      "verifiedDecodedFrames": 1340,
+      "blackFrames": [],
+      "processingSeconds": 112.22
+    }
+  },
+  "totalBytes": 103179268
+}

@@ -1,0 +1,14 @@
+{
+  "calls": 30000,
+  "trials": [
+    72.6927,
+    61.9237,
+    63.44999999999999,
+    58.87669999999997,
+    92.4801,
+    55.158500000000004,
+    76.33479999999997
+  ],
+  "medianMs": 63.44999999999999,
+  "note": "Isolated repeated-target loader scheduling benchmark; excludes fetch/decode/rendering."
+}

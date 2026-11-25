@@ -1,0 +1,1256 @@
+{
+  "responsive": [
+    {
+      "width": 320,
+      "variant": "mobile",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "9",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "19814400",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            22,
+            20,
+            1,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "619",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.31492",
+          "memoryBytes": "30182400",
+          "time": "25.77507",
+          "renderedFrame": "619",
+          "pixels": [
+            43,
+            32,
+            20,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "872",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.59333",
+          "memoryBytes": "30182400",
+          "time": "36.33224",
+          "renderedFrame": "872",
+          "pixels": [
+            137,
+            99,
+            52,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "999",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.69921",
+          "memoryBytes": "30182400",
+          "time": "41.60972",
+          "renderedFrame": "999",
+          "pixels": [
+            30,
+            26,
+            11,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1219",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.81232",
+          "memoryBytes": "30182400",
+          "time": "50.77549",
+          "renderedFrame": "1219",
+          "pixels": [
+            19,
+            15,
+            8,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1319",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.96238",
+          "memoryBytes": "30182400",
+          "time": "54.92047",
+          "renderedFrame": "1319",
+          "pixels": [
+            73,
+            49,
+            25,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "variant": "mobile",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "9",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "19958400",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            22,
+            20,
+            1,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "619",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.31495",
+          "memoryBytes": "30326400",
+          "time": "25.77540",
+          "renderedFrame": "619",
+          "pixels": [
+            43,
+            32,
+            20,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "872",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.59512",
+          "memoryBytes": "30326400",
+          "time": "36.33269",
+          "renderedFrame": "872",
+          "pixels": [
+            137,
+            99,
+            52,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "999",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.70167",
+          "memoryBytes": "30326400",
+          "time": "41.61078",
+          "renderedFrame": "999",
+          "pixels": [
+            30,
+            26,
+            11,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1218",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.81336",
+          "memoryBytes": "30326400",
+          "time": "50.74914",
+          "renderedFrame": "1218",
+          "pixels": [
+            18,
+            17,
+            6,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1319",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.96214",
+          "memoryBytes": "30326400",
+          "time": "54.92047",
+          "renderedFrame": "1319",
+          "pixels": [
+            73,
+            49,
+            25,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "variant": "mobile",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "9",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "20012400",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            22,
+            20,
+            0,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "617",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.31159",
+          "memoryBytes": "30380400",
+          "time": "25.70340",
+          "renderedFrame": "617",
+          "pixels": [
+            41,
+            31,
+            18,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "872",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.58757",
+          "memoryBytes": "30380400",
+          "time": "36.33289",
+          "renderedFrame": "872",
+          "pixels": [
+            137,
+            99,
+            53,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "996",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.69536",
+          "memoryBytes": "30380400",
+          "time": "41.47229",
+          "renderedFrame": "996",
+          "pixels": [
+            46,
+            41,
+            27,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1189",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.76517",
+          "memoryBytes": "30380400",
+          "time": "49.51023",
+          "renderedFrame": "1189",
+          "pixels": [
+            164,
+            143,
+            110,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1319",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.96114",
+          "memoryBytes": "30380400",
+          "time": "54.92035",
+          "renderedFrame": "1319",
+          "pixels": [
+            73,
+            49,
+            25,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "variant": "mobile",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "9",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "20066400",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            22,
+            20,
+            1,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "617",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.31159",
+          "memoryBytes": "30434400",
+          "time": "25.70340",
+          "renderedFrame": "617",
+          "pixels": [
+            41,
+            31,
+            18,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "872",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.58757",
+          "memoryBytes": "30434400",
+          "time": "36.33289",
+          "renderedFrame": "872",
+          "pixels": [
+            137,
+            99,
+            52,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "996",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.69536",
+          "memoryBytes": "30434400",
+          "time": "41.47229",
+          "renderedFrame": "996",
+          "pixels": [
+            46,
+            41,
+            27,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1189",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.76517",
+          "memoryBytes": "30434400",
+          "time": "49.51023",
+          "renderedFrame": "1189",
+          "pixels": [
+            163,
+            143,
+            110,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1319",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.96114",
+          "memoryBytes": "30434400",
+          "time": "54.92035",
+          "renderedFrame": "1319",
+          "pixels": [
+            73,
+            49,
+            25,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "variant": "mobile",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "9",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "20210400",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            22,
+            20,
+            1,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "617",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.31101",
+          "memoryBytes": "30578400",
+          "time": "25.69239",
+          "renderedFrame": "617",
+          "pixels": [
+            39,
+            30,
+            17,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "871",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.58659",
+          "memoryBytes": "30578400",
+          "time": "36.27732",
+          "renderedFrame": "871",
+          "pixels": [
+            135,
+            102,
+            50,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "996",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.69353",
+          "memoryBytes": "30578400",
+          "time": "41.47229",
+          "renderedFrame": "996",
+          "pixels": [
+            46,
+            41,
+            27,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1189",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.76422",
+          "memoryBytes": "30578400",
+          "time": "49.51074",
+          "renderedFrame": "1189",
+          "pixels": [
+            163,
+            143,
+            110,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1319",
+          "cachedFrames": "12",
+          "pendingFrames": "3",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.96171",
+          "memoryBytes": "30578400",
+          "time": "54.92172",
+          "renderedFrame": "1319",
+          "pixels": [
+            73,
+            49,
+            25,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "variant": "desktop",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "13",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "50688000",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            23,
+            20,
+            6,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "749",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.30649",
+          "memoryBytes": "76492800",
+          "time": "24.95595",
+          "renderedFrame": "749",
+          "pixels": [
+            50,
+            34,
+            21,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1081",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.56187",
+          "memoryBytes": "76492800",
+          "time": "36.02322",
+          "renderedFrame": "1081",
+          "pixels": [
+            138,
+            101,
+            54,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1246",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.69256",
+          "memoryBytes": "76492800",
+          "time": "41.53163",
+          "renderedFrame": "1246",
+          "pixels": [
+            42,
+            37,
+            25,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1486",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.78737",
+          "memoryBytes": "76492800",
+          "time": "49.51149",
+          "renderedFrame": "1486",
+          "pixels": [
+            164,
+            141,
+            111,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1650",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.98642",
+          "memoryBytes": "76492800",
+          "time": "54.99000",
+          "renderedFrame": "1650",
+          "pixels": [
+            75,
+            53,
+            28,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "variant": "desktop",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "13",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "51609600",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            23,
+            20,
+            6,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "721",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.32766",
+          "memoryBytes": "77414400",
+          "time": "24.00990",
+          "renderedFrame": "721",
+          "pixels": [
+            65,
+            46,
+            27,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1082",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.58993",
+          "memoryBytes": "77414400",
+          "time": "36.04085",
+          "renderedFrame": "1082",
+          "pixels": [
+            141,
+            102,
+            56,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1242",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.75629",
+          "memoryBytes": "77414400",
+          "time": "41.37055",
+          "renderedFrame": "1242",
+          "pixels": [
+            48,
+            41,
+            28,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1486",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.87492",
+          "memoryBytes": "77414400",
+          "time": "49.52832",
+          "renderedFrame": "1486",
+          "pixels": [
+            164,
+            141,
+            111,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1675",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "77414400",
+          "time": "55.83333",
+          "renderedFrame": "1675",
+          "pixels": [
+            78,
+            56,
+            35,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "variant": "desktop",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "13",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "52019200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            23,
+            20,
+            6,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "725",
+          "cachedFrames": "17",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.32719",
+          "memoryBytes": "74137600",
+          "time": "24.13341",
+          "renderedFrame": "725",
+          "pixels": [
+            49,
+            32,
+            15,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1085",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.58419",
+          "memoryBytes": "77824000",
+          "time": "36.16285",
+          "renderedFrame": "1085",
+          "pixels": [
+            144,
+            106,
+            58,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1251",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.75214",
+          "memoryBytes": "77824000",
+          "time": "41.68469",
+          "renderedFrame": "1251",
+          "pixels": [
+            27,
+            27,
+            14,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1519",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.89251",
+          "memoryBytes": "77824000",
+          "time": "50.61882",
+          "renderedFrame": "1519",
+          "pixels": [
+            21,
+            16,
+            11,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1675",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "77824000",
+          "time": "55.83333",
+          "renderedFrame": "1675",
+          "pixels": [
+            78,
+            56,
+            35,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "variant": "desktop",
+      "samples": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "13",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "50995200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "pixels": [
+            23,
+            21,
+            6,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "724",
+          "cachedFrames": "15",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.32824",
+          "memoryBytes": "65740800",
+          "time": "24.13059",
+          "renderedFrame": "724",
+          "pixels": [
+            57,
+            37,
+            19,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1085",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.58484",
+          "memoryBytes": "76800000",
+          "time": "36.16105",
+          "renderedFrame": "1085",
+          "pixels": [
+            144,
+            106,
+            59,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1251",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.75268",
+          "memoryBytes": "76800000",
+          "time": "41.69053",
+          "renderedFrame": "1251",
+          "pixels": [
+            27,
+            27,
+            14,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1519",
+          "cachedFrames": "18",
+          "pendingFrames": "4",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.89268",
+          "memoryBytes": "76800000",
+          "time": "50.61684",
+          "renderedFrame": "1519",
+          "pixels": [
+            21,
+            17,
+            11,
+            255
+          ],
+          "overflow": false
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1675",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "76800000",
+          "time": "55.83333",
+          "renderedFrame": "1675",
+          "pixels": [
+            78,
+            56,
+            36,
+            255
+          ],
+          "overflow": false
+        }
+      ]
+    }
+  ],
+  "engines": {
+    "firefox": {
+      "frames": [
+        1,
+        523,
+        892,
+        1340,
+        789,
+        1
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "webkit": {
+      "frames": [
+        1,
+        523,
+        893,
+        1340,
+        789,
+        1
+      ],
+      "errors": [],
+      "passed": true
+    }
+  },
+  "scenarios": {
+    "htmlImageAlternative": "Rendered real WebP with createImageBitmap disabled",
+    "anchorReload": "Reservation hash and reload preserve chronological frame",
+    "keyboard": "Focused form held its frame during emulated keyboard viewport shrink; resumed after blur",
+    "formsAndDialogs": "Reservation/enquiry validation, analog clock and Add Review dialog preserved",
+    "mobileNavigation": "Menu anchor and Back to Top update the actual rendered frame",
+    "singleMissing": "One missing frame used nearby chronological image; next position recovered without static fallback",
+    "repeatedFailures": "Repeated 503 responses expose reason and retry restores animation",
+    "transfer": {
+      "coldResourceBytes": 3853222,
+      "warmReloadResourceBytes": 29335,
+      "note": "Resource Timing response bytes, excludes HTML and aborted requests"
+    },
+    "blurComparison": {
+      "results": [
+        {
+          "blur": "6px",
+          "animationTickP95Ms": 16.899999999999636,
+          "delayedTicks": 0
+        },
+        {
+          "blur": "2px",
+          "animationTickP95Ms": 16.900000000001455,
+          "delayedTicks": 1
+        },
+        {
+          "blur": "0px",
+          "animationTickP95Ms": 16.899999999999636,
+          "delayedTicks": 0
+        }
+      ],
+      "note": "Sequential local rAF comparison; affected by warm cache, not an isolated GPU cost measurement"
+    },
+    "visibility": {
+      "hidden": false,
+      "pending": "0"
+    }
+  }
+}

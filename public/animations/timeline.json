@@ -1,0 +1,38 @@
+{
+  "fps": 24,
+  "width": 512,
+  "height": 512,
+  "duration": 14.25,
+  "runRightEnd": 3,
+  "peekEnd": 4.5,
+  "arrivalEnd": 5.25,
+  "danceEnd": 8.75,
+  "waveEnd": 10.75,
+  "turnEnd": 11.25,
+  "runLeftEnd": 14.25,
+  "peekSlideDuration": 0.3,
+  "peekEdgeFraction": 0.5,
+  "sourceSegments": {
+    "running": [
+      0.5,
+      2.5
+    ],
+    "peeking": [
+      3.0,
+      4.3
+    ],
+    "arrivalRunning": [
+      0.5,
+      1.0
+    ],
+    "danceWave": [
+      4.8,
+      10.3
+    ],
+    "turn": [
+      10.3,
+      10.75
+    ]
+  },
+  "notes": "Run retimed to 3s; return mirrors original forward running. Clip cuts use original poses and need animator-authored transitions for a perfect pose match."
+}

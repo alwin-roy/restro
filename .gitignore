@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -19,19 +17,18 @@
 
 # production
 /build
+/dist
 
-# misc
-.DS_Store
-*.pem
-
-# debug
+# debug & logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
 
-# env files (can opt-in for committing if needed)
+# env files (allow .env.example)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +36,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Temporary cache & test screen recordings
+.cache/
+artifacts/**/*.webm
+public/images/cinematic hero section/*-scroll-recording.webm
+public/images/cinematic hero section/*.log
+public/images/cinematic hero section/quality-tests/

@@ -1,0 +1,71 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import ts from 'typescript';
+
+function load(file) {
+  const compiled = {exports:{}};
+  const code = ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2020,module:ts.ModuleKind.CommonJS}}).outputText;
+  new Function('exports','module',code)(compiled.exports,compiled);
+  return compiled.exports;
+}
+const {validateReservation:validate,getRestaurantDate,formatReservationDate,firstInvalidReservationField,CONTACT_REQUIRED,FUTURE_REQUIRED}=load('src/lib/validations/reservation.ts');
+const {parseClockTime,toReservationTime,formatReservationTime,clockValueFromPoint,validClockPart}=load('src/lib/reservation-time.ts');
+const now = new Date('2026-11-24T10:00:00Z'); // 15:30 in India.
+const valid = {fullName:'Rahul Kumar',email:'customer@gmail.com',phone:'',guests:'2',date:'2026-11-25',time:'19:30',specialRequests:''};
+const check = (patch={},clock=now,max) => validate({...valid,...patch},clock,max);
+assert.ok(check().details);
+for(const name of ['', '   ', 'Rahul123', 'John@', '12345', 'A', 'A'.repeat(101), 'John-Smith', 'Alex 🙂']) assert.ok(check({fullName:name}).errors.fullName,name);
+for(const fullName of ['Anjali','Rahul Kumar','Élodie Durand','अंजली शर्मा','李 明','Jose\u0301 Silva']) assert.ok(check({fullName}).details,fullName);
+assert.equal(check({fullName:'  Rahul   Kumar  '}).details.fullName,'Rahul Kumar');
+assert.equal(check({email:'  customer@gmail.com  '}).details.email,'customer@gmail.com');
+assert.ok(check({email:'',phone:'9876543210'}).details);
+assert.equal(check({email:'',phone:'9876543210'}).details.phone,'+919876543210');
+assert.ok(check({phone:'9876543210'}).details);
+assert.equal(check({email:'',phone:''}).errors.contact,CONTACT_REQUIRED);
+for(const email of ['customer@gmail','customer@','@gmail.com','a@@gmail.com','a..b@gmail.com','a@-gmail.com','a@gmail..com','a b@gmail.com']) assert.ok(check({email,phone:'9876543210'}).errors.email,email);
+for(const phone of ['123','123456789','12345678901','98765abcde','98765 3210','+919876543210','987654321!']) assert.ok(check({phone}).errors.phone,phone);
+assert.ok(check({email:'customer+table@gmail.com'}).details);
+for(const guests of ['', '-1', '0', '21', '2.5', 'abc', '2e1', '+2', ' 2 ', 'Infinity']) assert.ok(check({guests}).errors.guests,guests);
+assert.equal(check({guests:'1'}).details.guests,1);
+assert.equal(check({guests:'20'}).details.guests,20);
+assert.equal(check({guests:'02'}).values.guests,'2');
+assert.ok(check({guests:'5'},now,4).errors.guests);
+assert.ok(check({date:''}).errors.date);
+assert.ok(check({time:''}).errors.time);
+for(const date of ['2026-11-23','2026-11-31','2027-02-29','2026-13-01','2026-00-01','not-a-date']) assert.ok(check({date}).errors.date,date);
+assert.equal(check({date:'2026-11-24',time:'15:29'}).errors.time,FUTURE_REQUIRED);
+assert.equal(check({date:'2026-11-24',time:'15:30'}).errors.time,FUTURE_REQUIRED);
+assert.ok(check({date:'2026-11-24',time:'15:31'}).details);
+assert.ok(check({date:'2028-02-29'}).details);
+assert.ok(check({date:'9999-12-31'}).details);
+for(const time of ['24:00','12:60','1:30','19:30:59','invalid']) assert.ok(check({time}).errors.time,time);
+assert.equal(getRestaurantDate(new Date('2026-11-24T18:29:59Z')),'2026-11-24');
+assert.equal(getRestaurantDate(new Date('2026-11-24T18:30:00Z')),'2026-11-25');
+const indianNextDay = new Date('2026-11-24T20:00:00Z');
+assert.equal(check({date:'2026-11-24',time:'23:59'},indianNextDay).errors.date,FUTURE_REQUIRED);
+assert.ok(check({date:'2026-11-25',time:'01:31'},indianNextDay).details);
+assert.ok(check({specialRequests:'Window-side seating.\nHigh chair, please!'}).details);
+assert.ok(check({specialRequests:'x'.repeat(500)}).details);
+assert.ok(check({specialRequests:'x'.repeat(501)}).errors.specialRequests);
+assert.equal(check({specialRequests:'<b>Birthday</b>'}).details.specialRequests,'<b>Birthday</b>');
+assert.match(formatReservationDate('2026-11-25'),/25 November 2026/);
+assert.equal(firstInvalidReservationField({contact:CONTACT_REQUIRED}),'email');
+assert.equal(firstInvalidReservationField({guests:'Invalid',fullName:'Required'}),'fullName');
+assert.equal(toReservationTime({hour:12,minute:0,period:'AM'}),'00:00');
+assert.equal(toReservationTime({hour:12,minute:0,period:'PM'}),'12:00');
+assert.equal(toReservationTime({hour:7,minute:30,period:'PM'}),'19:30');
+assert.equal(toReservationTime({hour:11,minute:59,period:'PM'}),'23:59');
+assert.deepEqual(parseClockTime('00:05'),{hour:12,minute:5,period:'AM'});
+assert.deepEqual(parseClockTime('19:30'),{hour:7,minute:30,period:'PM'});
+assert.equal(formatReservationTime('19:30'),'7:30 PM');
+assert.equal(parseClockTime('25:00'),null);
+assert.equal(toReservationTime({hour:0,minute:30,period:'PM'}),'');
+for(const hour of ['1','01','7','12']) assert.equal(validClockPart(hour,'hour'),true);
+for(const hour of ['','0','00','13','99','-1','1.5','1e1','ab']) assert.equal(validClockPart(hour,'hour'),false);
+for(const minute of ['0','00','09','30','59']) assert.equal(validClockPart(minute,'minute'),true);
+for(const minute of ['','60','99','-1','1.5','1e1','ab']) assert.equal(validClockPart(minute,'minute'),false);
+for(const [x,y,hour,minute] of [[0,-1,12,0],[1,0,3,15],[0,1,6,30],[-1,0,9,45]]) {
+  assert.equal(clockValueFromPoint(x,y,'hour'),hour);
+  assert.equal(clockValueFromPoint(x,y,'minute'),minute);
+}
+console.log('Reservation checks passed: Unicode names, contacts, strict guests/limits, calendar/leap and India timezone boundaries, request length/focus order, clock angles, and AM/PM conversion including noon/midnight.');

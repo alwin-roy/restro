@@ -1,0 +1,105 @@
+{
+  "samples": [
+    {
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "2",
+      "cachedFrames": "14",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "1",
+      "progress": "0.00143",
+      "memoryBytes": "55705600",
+      "time": "0.03980",
+      "renderedFrame": "2",
+      "pixel": [
+        23,
+        20,
+        5,
+        255
+      ]
+    },
+    {
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "4",
+      "cachedFrames": "16",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "1",
+      "progress": "0.00429",
+      "memoryBytes": "63078400",
+      "time": "0.11940",
+      "renderedFrame": "4",
+      "pixel": [
+        24,
+        20,
+        6,
+        255
+      ]
+    },
+    {
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "8",
+      "cachedFrames": "18",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "1",
+      "progress": "0.00858",
+      "memoryBytes": "70451200",
+      "time": "0.23881",
+      "renderedFrame": "8",
+      "pixel": [
+        23,
+        20,
+        10,
+        255
+      ]
+    },
+    {
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "11",
+      "cachedFrames": "18",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "1",
+      "progress": "0.01286",
+      "memoryBytes": "70451200",
+      "time": "0.35821",
+      "renderedFrame": "11",
+      "pixel": [
+        23,
+        21,
+        5,
+        255
+      ]
+    },
+    {
+      "fallback": "none",
+      "status": "ready",
+      "variant": "desktop",
+      "targetFrame": "15",
+      "cachedFrames": "18",
+      "pendingFrames": "0",
+      "totalFrames": "1675",
+      "direction": "1",
+      "progress": "0.01715",
+      "memoryBytes": "70451200",
+      "time": "0.47761",
+      "renderedFrame": "15",
+      "pixel": [
+        25,
+        21,
+        5,
+        255
+      ]
+    }
+  ],
+  "panel": "{\n  \"fallback\": \"none\",\n  \"status\": \"ready\",\n  \"variant\": \"desktop\",\n  \"targetFrame\": \"15\",\n  \"cachedFrames\": \"18\",\n  \"pendingFrames\": \"4\",\n  \"totalFrames\": \"1675\",\n  \"direction\": \"1\",\n  \"progress\": \"0.01715\",\n  \"memoryBytes\": \"77824000\",\n  \"time\": \"0.47761\",\n  \"renderedFrame\": \"15\",\n  \"section\": \"Arrival\",\n  \"compressedFrames\": 47,\n  \"decoding\": 2,\n  \"visibleDrawsLastSecond\": 5,\n  \"frameLag\": 0,\n  \"fallbackReason\": \"none\"\n}"
+}

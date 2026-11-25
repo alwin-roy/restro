@@ -1,0 +1,43 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Illustrative category photography; not actual restaurant dishes",
+  "commonPrompt": "Use case: photorealistic-natural. Asset type: illustrative restaurant category card photo. Create one photorealistic premium food photograph, landscape 3:2 framing. Consistent collection art direction: softly lit charcoal tabletop and neutral dark ceramic crockery, warm natural side lighting, subtle realistic shadows, shallow depth of field, true food textures, editorial restaurant photography. Center the dish with generous breathing room so the entire food subject remains inside a 3:2 card crop. Natural appetizing food colors. No people, hands, typography, lettering, logos, borders, montage, graphic overlays, or watermarks. Not a UI mockup. Subject: ",
+  "subjects": [
+    {
+      "id": "shawarmas",
+      "subject": "Two toasted chicken shawarma wrap halves, one upright cut face showing juicy shaved chicken, pickles, fresh greens and creamy garlic sauce, delicate grill marks."
+    },
+    {
+      "id": "burgers",
+      "subject": "A juicy premium beef cheeseburger, glossy golden brioche bun, melted cheddar, crisp lettuce, tomato and pickles, realistic seared patty."
+    },
+    {
+      "id": "mandi",
+      "subject": "An authentic traditional chicken mandi platter: aromatic long-grain basmati rice with a large roasted chicken leg quarter, toasted nuts and a small bowl of tomato sauce; unmistakably mandi rather than biryani."
+    },
+    {
+      "id": "desserts",
+      "subject": "A rich chocolate brownie with glossy chocolate drizzle and a scoop of vanilla ice cream, visible fudgy crumb, appetizing and refined."
+    },
+    {
+      "id": "drinks",
+      "subject": "Three refreshing drinks in clear elegant glasses: fresh citrus juice, a strawberry milkshake, and a mint-lime cooler with condensation; no alcohol."
+    },
+    {
+      "id": "wraps-rolls",
+      "subject": "Assorted toasted wraps and rolls cut diagonally, filled with grilled chicken, crisp vegetables and creamy sauce, arranged neatly on a dark ceramic plate."
+    },
+    {
+      "id": "fried-chicken",
+      "subject": "Golden crispy fried chicken pieces with richly textured crunchy coating, a small bowl of creamy dip; appetizing realistic food photography."
+    },
+    {
+      "id": "pizzas",
+      "subject": "A freshly baked cheese and vegetable pizza with bubbling mozzarella, basil, tomato and beautifully blistered golden crust on a dark serving board."
+    },
+    {
+      "id": "sandwiches",
+      "subject": "A premium toasted sandwich cut into stacked triangles, golden bread, grilled chicken, fresh lettuce and tomato, creamy sauce, on a dark ceramic plate."
+    }
+  ]
+}

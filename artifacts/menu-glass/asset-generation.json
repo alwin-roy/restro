@@ -1,0 +1,32 @@
+{
+  "tool": "Built-in image_gen",
+  "transparent_background": true,
+  "optimization": "800px WebP quality 84, alpha preserved",
+  "reused": "Five existing cutouts from public/images/promotions for other categories",
+  "items": [
+    {
+      "name": "wraps-rolls",
+      "prompt": "Premium photorealistic restaurant food cutout. Two grilled tortilla wrap halves filled with chicken, peppers and leafy vegetables, filling clearly visible. Center the entire food composition, warm amber studio light, realistic appetizing texture, cohesive with espresso, ivory and champagne website. Transparent alpha background. Generous clear margin, no text, no watermark, no backdrop, no table, no scenery. Square composition. Illustrative menu category photography.",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-3a48acbc-4ac5-47fb-9e5b-3f81258d6004.png",
+      "asset": "public/images/menu-cutouts/wraps-rolls.webp"
+    },
+    {
+      "name": "fried-chicken",
+      "prompt": "Premium photorealistic restaurant food cutout. Three appetizing golden crispy fried chicken pieces, one drumstick and two crunchy pieces, with a few small herb leaves. No bucket or packaging. Center the entire food composition, warm amber studio light, realistic appetizing texture, cohesive with espresso, ivory and champagne website. Transparent alpha background. Generous clear margin, no text, no watermark, no backdrop, no table, no scenery. Square composition. Illustrative menu category photography.",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-001a76b8-4c8e-408d-a8e9-976954f54eb1.png",
+      "asset": "public/images/menu-cutouts/fried-chicken.webp"
+    },
+    {
+      "name": "pizzas",
+      "prompt": "Premium photorealistic restaurant food cutout. One small round pizza with melted cheese, tomato, basil and chicken toppings, one slice lifted very slightly, three-quarter view. Center the entire food composition, warm amber studio light, realistic appetizing texture, cohesive with espresso, ivory and champagne website. Transparent alpha background. Generous clear margin, no text, no watermark, no backdrop, no table, no scenery. Square composition. Illustrative menu category photography.",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-408bea15-0965-4bd6-9ade-a4aee57179f3.png",
+      "asset": "public/images/menu-cutouts/pizzas.webp"
+    },
+    {
+      "name": "sandwiches",
+      "prompt": "Premium photorealistic restaurant food cutout. Two triangular toasted club sandwich halves stacked, chicken, lettuce, tomato and cheese visible. Center the entire food composition, warm amber studio light, realistic appetizing texture, cohesive with espresso, ivory and champagne website. Transparent alpha background. Generous clear margin, no text, no watermark, no backdrop, no table, no scenery. Square composition. Illustrative menu category photography.",
+      "source": "C:\\Users\\alwin\\.codex\\generated_images\\01a21189-0add-7922-aead-ceed27e0f1ae\\exec-7d81e0db-df96-4d48-b52e-e304c50b2f0b.png",
+      "asset": "public/images/menu-cutouts/sandwiches.webp"
+    }
+  ]
+}

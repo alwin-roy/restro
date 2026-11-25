@@ -1,0 +1,65 @@
+import assert from 'node:assert/strict';
+import { chromium } from '../node_modules/.cache/restro-qa/node_modules/playwright/index.mjs';
+
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+try {
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+  const errors = [];
+  page.on('pageerror', error => errors.push(String(error)));
+  await page.goto('http://localhost:3200/menu', { waitUntil: 'domcontentloaded' });
+  const grid = page.locator('#food-categories-grid');
+  const cards = grid.locator('.food-category-card');
+  await cards.first().scrollIntoViewIfNeeded();
+  await cards.first().hover();
+  await page.waitForTimeout(600);
+  assert.equal(await grid.locator('.is-menu-focused').count(), 1);
+  assert.notEqual(await cards.first().evaluate(element => getComputedStyle(element).transform), 'none');
+  assert.notEqual(await cards.first().locator('img').evaluate(element => getComputedStyle(element).transform), 'none');
+  const checkNeighbors = async () => assert.equal(await cards.evaluateAll(elements => elements.filter(e => !e.classList.contains('is-menu-focused')).every(e => getComputedStyle(e).filter === 'none' && getComputedStyle(e).opacity === '1')), true);
+  await checkNeighbors();
+  await cards.nth(1).hover();
+  await page.waitForTimeout(600);
+  assert.equal(await grid.locator('.is-menu-focused').count(), 1);
+  assert.ok((await cards.nth(1).getAttribute('class')).includes('is-menu-focused'));
+  await checkNeighbors();
+  await page.mouse.move(0, 0);
+  assert.equal(await grid.locator('.is-menu-focused').count(), 0);
+  await cards.first().locator('a').focus();
+  assert.ok((await cards.first().getAttribute('class')).includes('is-menu-focused'));
+  await page.keyboard.press('Enter');
+  await page.waitForURL('**/menu/shawarmas');
+  const product = page.locator('.food-item-card').first();
+  await product.scrollIntoViewIfNeeded();
+  await product.focus();
+  assert.ok((await product.getAttribute('class')).includes('is-menu-focused'));
+  await page.keyboard.press('Tab');
+  assert.equal(await page.locator('.menu-focus-grid .is-menu-focused').count(), 1);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await product.hover();
+  await page.waitForTimeout(100);
+  assert.equal(await page.locator('.is-menu-focused').count(), 0);
+  assert.equal(await product.evaluate(element => getComputedStyle(element).transform), 'none');
+  const phone = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  await phone.goto('http://localhost:3200/menu', { waitUntil: 'domcontentloaded' });
+  const phoneCard = phone.locator('.food-category-card').first();
+  await phoneCard.scrollIntoViewIfNeeded();
+  await phoneCard.locator('h3').tap();
+  assert.ok((await phoneCard.getAttribute('class')).includes('is-menu-focused'));
+  assert.equal(await phone.locator('.food-category-card').nth(1).evaluate(element => getComputedStyle(element).opacity), '1');
+  await phone.evaluate(() => scrollBy(0, 120));
+  await phone.waitForTimeout(100);
+  assert.equal(await phone.locator('.is-menu-focused').count(), 0);
+  await phoneCard.locator('a').tap();
+  await phone.waitForURL('**/menu/shawarmas');
+  const phoneProduct = phone.locator('.food-item-card').first();
+  await phoneProduct.scrollIntoViewIfNeeded();
+  await phoneProduct.locator('h2').tap();
+  assert.ok((await phoneProduct.getAttribute('class')).includes('is-menu-focused'));
+  for (const width of [390, 320]) {
+    await phone.setViewportSize({ width, height: 844 });
+    assert.equal(await phone.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  }
+  assert.deepEqual(errors, []);
+  await phone.close();
+  console.log('Menu lift/tilt, unchanged clear neighbors, category navigation, keyboard dish focus, mobile tap/scroll and reduced motion passed.');
+} finally { await browser.close(); }

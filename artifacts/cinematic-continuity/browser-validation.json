@@ -1,0 +1,1316 @@
+{
+  "environment": "Local production, installed Chrome, emulated mobile; cold browser contexts",
+  "variants": {
+    "desktop": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "requests": 4102,
+      "initialTransferBytes": 3853264,
+      "traversalTransferBytes": 95358782,
+      "slowMotion": {
+        "uniqueDisplayedFrames": 72,
+        "maxFrameLag": 47,
+        "exactSampleFraction": 0.9944598337950139,
+        "delayedAnimationTicks": 0,
+        "ticks": 361
+      },
+      "snapshots": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "13",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "52019200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 1280,
+          "height": 800,
+          "y": 0,
+          "overflow": false,
+          "pixel": [
+            23,
+            20,
+            6,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.00000",
+          "memoryBytes": "70451200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 1280,
+          "height": 800,
+          "y": 0,
+          "overflow": false,
+          "pixel": [
+            23,
+            20,
+            6,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "84",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.10006",
+          "memoryBytes": "70451200",
+          "time": "2.78607",
+          "renderedFrame": "84",
+          "width": 1280,
+          "height": 800,
+          "y": 700,
+          "overflow": false,
+          "pixel": [
+            22,
+            13,
+            3,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "468",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.19997",
+          "memoryBytes": "70451200",
+          "time": "15.57845",
+          "renderedFrame": "468",
+          "width": 1280,
+          "height": 800,
+          "y": 1399,
+          "overflow": false,
+          "pixel": [
+            69,
+            31,
+            1,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "683",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.30003",
+          "memoryBytes": "70451200",
+          "time": "22.76362",
+          "renderedFrame": "683",
+          "width": 1280,
+          "height": 800,
+          "y": 2099,
+          "overflow": false,
+          "pixel": [
+            64,
+            48,
+            29,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "835",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.39994",
+          "memoryBytes": "70451200",
+          "time": "27.80301",
+          "renderedFrame": "835",
+          "width": 1280,
+          "height": 800,
+          "y": 2798,
+          "overflow": false,
+          "pixel": [
+            47,
+            29,
+            15,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "986",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.50000",
+          "memoryBytes": "70451200",
+          "time": "32.84960",
+          "renderedFrame": "986",
+          "width": 1280,
+          "height": 800,
+          "y": 3498,
+          "overflow": false,
+          "pixel": [
+            173,
+            139,
+            67,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1101",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.60006",
+          "memoryBytes": "70451200",
+          "time": "36.67545",
+          "renderedFrame": "1101",
+          "width": 1280,
+          "height": 800,
+          "y": 4198,
+          "overflow": false,
+          "pixel": [
+            102,
+            81,
+            56,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1198",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.69997",
+          "memoryBytes": "70451200",
+          "time": "39.90346",
+          "renderedFrame": "1198",
+          "width": 1280,
+          "height": 800,
+          "y": 4897,
+          "overflow": false,
+          "pixel": [
+            62,
+            53,
+            42,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1347",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.80003",
+          "memoryBytes": "70451200",
+          "time": "44.89361",
+          "renderedFrame": "1347",
+          "width": 1280,
+          "height": 800,
+          "y": 5597,
+          "overflow": false,
+          "pixel": [
+            12,
+            13,
+            5,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1530",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "0.89994",
+          "memoryBytes": "70451200",
+          "time": "50.96906",
+          "renderedFrame": "1530",
+          "width": 1280,
+          "height": 800,
+          "y": 6296,
+          "overflow": false,
+          "pixel": [
+            16,
+            17,
+            8,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1675",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "70451200",
+          "time": "55.83333",
+          "renderedFrame": "1675",
+          "width": 1280,
+          "height": 800,
+          "y": 6996,
+          "overflow": false,
+          "pixel": [
+            78,
+            56,
+            35,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1675",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "70451200",
+          "time": "55.83333",
+          "renderedFrame": "1675",
+          "width": 1280,
+          "height": 800,
+          "y": 6996,
+          "overflow": false,
+          "pixel": [
+            78,
+            56,
+            35,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1530",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.89994",
+          "memoryBytes": "70451200",
+          "time": "50.96906",
+          "renderedFrame": "1530",
+          "width": 1280,
+          "height": 800,
+          "y": 6296,
+          "overflow": false,
+          "pixel": [
+            16,
+            17,
+            8,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1347",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.80003",
+          "memoryBytes": "70451200",
+          "time": "44.89361",
+          "renderedFrame": "1347",
+          "width": 1280,
+          "height": 800,
+          "y": 5597,
+          "overflow": false,
+          "pixel": [
+            12,
+            13,
+            5,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1198",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.69997",
+          "memoryBytes": "70451200",
+          "time": "39.90346",
+          "renderedFrame": "1198",
+          "width": 1280,
+          "height": 800,
+          "y": 4897,
+          "overflow": false,
+          "pixel": [
+            62,
+            53,
+            42,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1101",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.60006",
+          "memoryBytes": "70451200",
+          "time": "36.67545",
+          "renderedFrame": "1101",
+          "width": 1280,
+          "height": 800,
+          "y": 4198,
+          "overflow": false,
+          "pixel": [
+            102,
+            81,
+            56,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "986",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.50000",
+          "memoryBytes": "70451200",
+          "time": "32.84960",
+          "renderedFrame": "986",
+          "width": 1280,
+          "height": 800,
+          "y": 3498,
+          "overflow": false,
+          "pixel": [
+            173,
+            139,
+            67,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "835",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.39994",
+          "memoryBytes": "70451200",
+          "time": "27.80301",
+          "renderedFrame": "835",
+          "width": 1280,
+          "height": 800,
+          "y": 2798,
+          "overflow": false,
+          "pixel": [
+            47,
+            29,
+            15,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "683",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.30003",
+          "memoryBytes": "70451200",
+          "time": "22.76362",
+          "renderedFrame": "683",
+          "width": 1280,
+          "height": 800,
+          "y": 2099,
+          "overflow": false,
+          "pixel": [
+            64,
+            48,
+            29,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "468",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.19997",
+          "memoryBytes": "77824000",
+          "time": "15.57845",
+          "renderedFrame": "468",
+          "width": 1280,
+          "height": 800,
+          "y": 1399,
+          "overflow": false,
+          "pixel": [
+            69,
+            31,
+            1,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "84",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.10006",
+          "memoryBytes": "70451200",
+          "time": "2.78607",
+          "renderedFrame": "84",
+          "width": 1280,
+          "height": 800,
+          "y": 700,
+          "overflow": false,
+          "pixel": [
+            22,
+            13,
+            3,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "desktop",
+          "targetFrame": "1",
+          "cachedFrames": "18",
+          "pendingFrames": "0",
+          "totalFrames": "1675",
+          "direction": "-1",
+          "progress": "0.00000",
+          "memoryBytes": "70451200",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 1280,
+          "height": 800,
+          "y": 0,
+          "overflow": false,
+          "pixel": [
+            23,
+            20,
+            6,
+            255
+          ]
+        }
+      ],
+      "sectionChecks": [
+        {
+          "section": "cinema-hero",
+          "frames": [
+            22,
+            55,
+            87
+          ]
+        },
+        {
+          "section": "food-favorites",
+          "frames": [
+            238,
+            245,
+            253
+          ]
+        },
+        {
+          "section": "offers-section",
+          "frames": [
+            333,
+            445,
+            558
+          ]
+        },
+        {
+          "section": "food-categories bg-[#fafaf7] py-16 sm:py-20 lg:py-24",
+          "frames": [
+            697,
+            832,
+            967
+          ]
+        },
+        {
+          "section": "reservation",
+          "frames": [
+            1091,
+            1154,
+            1217
+          ]
+        },
+        {
+          "section": "reviews",
+          "frames": [
+            1322,
+            1394,
+            1466
+          ]
+        },
+        {
+          "section": "contact",
+          "frames": [
+            1551,
+            1620,
+            1675
+          ]
+        },
+        {
+          "section": "footer",
+          "frames": [
+            1631,
+            1648,
+            1664
+          ]
+        }
+      ],
+      "tinyFrames": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "errors": [],
+      "drawCount": 564,
+      "drawP95Milliseconds": 0.10000000149011612,
+      "longTaskCount": 1,
+      "longestTaskMilliseconds": 104
+    },
+    "mobile": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "requests": 3108,
+      "initialTransferBytes": 1647354,
+      "traversalTransferBytes": 33222310,
+      "slowMotion": {
+        "uniqueDisplayedFrames": 63,
+        "maxFrameLag": 45,
+        "exactSampleFraction": 0.9944598337950139,
+        "delayedAnimationTicks": 0,
+        "ticks": 361
+      },
+      "snapshots": [
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "9",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.00000",
+          "memoryBytes": "19979040",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 390,
+          "height": 844,
+          "y": 0,
+          "overflow": false,
+          "pixel": [
+            22,
+            20,
+            1,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.00000",
+          "memoryBytes": "26199840",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 390,
+          "height": 844,
+          "y": 0,
+          "overflow": false,
+          "pixel": [
+            22,
+            20,
+            1,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "298",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.09996",
+          "memoryBytes": "26199840",
+          "time": "12.40013",
+          "renderedFrame": "298",
+          "width": 390,
+          "height": 844,
+          "y": 1137,
+          "overflow": false,
+          "pixel": [
+            143,
+            88,
+            34,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "523",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.20002",
+          "memoryBytes": "26199840",
+          "time": "21.75403",
+          "renderedFrame": "523",
+          "width": 390,
+          "height": 844,
+          "y": 2275,
+          "overflow": false,
+          "pixel": [
+            83,
+            70,
+            52,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "611",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.29998",
+          "memoryBytes": "26199840",
+          "time": "25.45595",
+          "renderedFrame": "611",
+          "width": 390,
+          "height": 844,
+          "y": 3412,
+          "overflow": false,
+          "pixel": [
+            43,
+            32,
+            20,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "700",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.40004",
+          "memoryBytes": "26199840",
+          "time": "29.16114",
+          "renderedFrame": "700",
+          "width": 390,
+          "height": 844,
+          "y": 4550,
+          "overflow": false,
+          "pixel": [
+            179,
+            104,
+            45,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "789",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.50000",
+          "memoryBytes": "26199840",
+          "time": "32.86306",
+          "renderedFrame": "789",
+          "width": 390,
+          "height": 844,
+          "y": 5687,
+          "overflow": false,
+          "pixel": [
+            104,
+            77,
+            45,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "892",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.59996",
+          "memoryBytes": "26199840",
+          "time": "37.15872",
+          "renderedFrame": "892",
+          "width": 390,
+          "height": 844,
+          "y": 6824,
+          "overflow": false,
+          "pixel": [
+            69,
+            54,
+            34,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1022",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.70002",
+          "memoryBytes": "26199840",
+          "time": "42.54570",
+          "renderedFrame": "1022",
+          "width": 390,
+          "height": 844,
+          "y": 7962,
+          "overflow": false,
+          "pixel": [
+            149,
+            116,
+            72,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1216",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.79998",
+          "memoryBytes": "26199840",
+          "time": "50.64813",
+          "renderedFrame": "1216",
+          "width": 390,
+          "height": 844,
+          "y": 9099,
+          "overflow": false,
+          "pixel": [
+            17,
+            15,
+            6,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1285",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "0.90004",
+          "memoryBytes": "26199840",
+          "time": "53.51302",
+          "renderedFrame": "1285",
+          "width": 390,
+          "height": 844,
+          "y": 10237,
+          "overflow": false,
+          "pixel": [
+            59,
+            45,
+            33,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1340",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "26199840",
+          "time": "55.83333",
+          "renderedFrame": "1340",
+          "width": 390,
+          "height": 844,
+          "y": 11374,
+          "overflow": false,
+          "pixel": [
+            81,
+            57,
+            37,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1340",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "1",
+          "progress": "1.00000",
+          "memoryBytes": "26199840",
+          "time": "55.83333",
+          "renderedFrame": "1340",
+          "width": 390,
+          "height": 844,
+          "y": 11374,
+          "overflow": false,
+          "pixel": [
+            81,
+            57,
+            37,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1285",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.90004",
+          "memoryBytes": "26199840",
+          "time": "53.51302",
+          "renderedFrame": "1285",
+          "width": 390,
+          "height": 844,
+          "y": 10237,
+          "overflow": false,
+          "pixel": [
+            59,
+            45,
+            33,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1216",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.79998",
+          "memoryBytes": "26199840",
+          "time": "50.64813",
+          "renderedFrame": "1216",
+          "width": 390,
+          "height": 844,
+          "y": 9099,
+          "overflow": false,
+          "pixel": [
+            17,
+            15,
+            6,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1022",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.70002",
+          "memoryBytes": "26199840",
+          "time": "42.54570",
+          "renderedFrame": "1022",
+          "width": 390,
+          "height": 844,
+          "y": 7962,
+          "overflow": false,
+          "pixel": [
+            149,
+            116,
+            72,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "892",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.59996",
+          "memoryBytes": "26199840",
+          "time": "37.15872",
+          "renderedFrame": "892",
+          "width": 390,
+          "height": 844,
+          "y": 6824,
+          "overflow": false,
+          "pixel": [
+            69,
+            54,
+            34,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "789",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.50000",
+          "memoryBytes": "26199840",
+          "time": "32.86306",
+          "renderedFrame": "789",
+          "width": 390,
+          "height": 844,
+          "y": 5687,
+          "overflow": false,
+          "pixel": [
+            104,
+            77,
+            45,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "700",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.40004",
+          "memoryBytes": "26199840",
+          "time": "29.16114",
+          "renderedFrame": "700",
+          "width": 390,
+          "height": 844,
+          "y": 4550,
+          "overflow": false,
+          "pixel": [
+            179,
+            104,
+            45,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "611",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.29998",
+          "memoryBytes": "26199840",
+          "time": "25.45595",
+          "renderedFrame": "611",
+          "width": 390,
+          "height": 844,
+          "y": 3412,
+          "overflow": false,
+          "pixel": [
+            43,
+            32,
+            20,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "523",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.20002",
+          "memoryBytes": "26199840",
+          "time": "21.75403",
+          "renderedFrame": "523",
+          "width": 390,
+          "height": 844,
+          "y": 2275,
+          "overflow": false,
+          "pixel": [
+            83,
+            70,
+            52,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "298",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.09996",
+          "memoryBytes": "26199840",
+          "time": "12.40013",
+          "renderedFrame": "298",
+          "width": 390,
+          "height": 844,
+          "y": 1137,
+          "overflow": false,
+          "pixel": [
+            143,
+            88,
+            34,
+            255
+          ]
+        },
+        {
+          "fallback": "none",
+          "status": "ready",
+          "variant": "mobile",
+          "targetFrame": "1",
+          "cachedFrames": "12",
+          "pendingFrames": "0",
+          "totalFrames": "1340",
+          "direction": "-1",
+          "progress": "0.00000",
+          "memoryBytes": "26199840",
+          "time": "0.00000",
+          "renderedFrame": "1",
+          "width": 390,
+          "height": 844,
+          "y": 0,
+          "overflow": false,
+          "pixel": [
+            22,
+            20,
+            1,
+            255
+          ]
+        }
+      ],
+      "sectionChecks": [
+        {
+          "section": "cinema-hero",
+          "frames": [
+            18,
+            44,
+            70
+          ]
+        },
+        {
+          "section": "food-favorites",
+          "frames": [
+            190,
+            196,
+            203
+          ]
+        },
+        {
+          "section": "offers-section",
+          "frames": [
+            267,
+            357,
+            447
+          ]
+        },
+        {
+          "section": "food-categories bg-[#fafaf7] py-16 sm:py-20 lg:py-24",
+          "frames": [
+            548,
+            656,
+            764
+          ]
+        },
+        {
+          "section": "reservation",
+          "frames": [
+            872,
+            923,
+            973
+          ]
+        },
+        {
+          "section": "reviews",
+          "frames": [
+            1059,
+            1117,
+            1175
+          ]
+        },
+        {
+          "section": "contact",
+          "frames": [
+            1216,
+            1249,
+            1281
+          ]
+        },
+        {
+          "section": "footer",
+          "frames": [
+            1331,
+            1335,
+            1338
+          ]
+        }
+      ],
+      "tinyFrames": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "errors": [],
+      "drawCount": 513,
+      "drawP95Milliseconds": 0.10000000149011612,
+      "longTaskCount": 1,
+      "longestTaskMilliseconds": 122
+    }
+  },
+  "reducedMotion": "Static by default; zero frame requests",
+  "manifestFailure": "Reason exposed; stable poster remains after two failed manifest requests",
+  "manifestRetry": "Explicit retry restores continuous sequence",
+  "delayedFrames": "Last picture held during 900ms delay; latest target rendered after load",
+  "resizeAndRoute": "Variant switches at breakpoint preserving timestamp; client navigation to About removes visible sequence renderer"
+}

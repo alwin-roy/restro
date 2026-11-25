@@ -1,0 +1,56 @@
+import assert from 'node:assert/strict';
+import { chromium } from '../node_modules/.cache/restro-qa/node_modules/playwright/index.mjs';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+try {
+  const page = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+  const errors = [];
+  page.on('pageerror', error => errors.push(String(error)));
+  await page.goto('http://localhost:3300/', { waitUntil: 'networkidle' });
+  assert.equal(await page.locator('.site-header').getAttribute('data-scroll-visible'), 'false');
+  await page.locator('.food-categories').scrollIntoViewIfNeeded();
+  await page.getByRole('button', { name: 'Open navigation menu' }).click();
+  const navigation = page.getByRole('navigation', { name: 'Mobile navigation' });
+  await navigation.getByRole('link', { name: 'Contact', exact: true }).click();
+  const enquiry = page.locator('.contact-form-card');
+  await enquiry.getByRole('button', { name: 'Send Message' }).click();
+  assert.ok(await enquiry.locator('[aria-invalid=true]').count() > 0);
+  await enquiry.locator('[name=name]').fill('Alex Guest');
+  await enquiry.locator('[name=email]').fill('alex@example.com');
+  await enquiry.locator('[name=subject]').selectOption('general');
+  await enquiry.locator('[name=message]').fill('We would like to ask about your restaurant opening hours.');
+  await enquiry.getByRole('button', { name: 'Send Message' }).click();
+  await enquiry.getByText('Enquiry preview ready. Nothing has been sent or saved.').waitFor();
+  await page.getByRole('button', { name: 'Add Review', exact: true }).click();
+  const review = page.locator('.review-dialog');
+  await review.getByRole('button', { name: 'Submit Review' }).click();
+  assert.ok(await review.locator('[aria-invalid=true]').count() > 0);
+  await review.locator('input[type=text]').fill('Alex Guest');
+  await review.locator('label[aria-label="Rate 5 out of 5 stars"]').click();
+  await review.locator('textarea').fill('A lovely evening with delicious food and warm service.');
+  await review.getByRole('button', { name: 'Submit Review' }).click();
+  await page.getByText('Thank you! Your review has been added.').waitFor();
+  assert.equal(await review.evaluate(element => element.open), false);
+  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('restro-preview-reviews-v1')).reviews);
+  assert.ok(stored.some(item => item.name === 'Alex Guest' && item.rating === 5));
+  await page.reload({ waitUntil: 'networkidle' });
+  assert.ok(await page.locator('.review-card').filter({ hasText: 'Alex Guest' }).count() > 0);
+  await page.getByRole('button', { name: 'Back to top', exact: true }).click();
+  await page.waitForFunction(() => scrollY === 0);
+  await page.goto('http://localhost:3300/about', { waitUntil: 'networkidle' });
+  assert.ok(await page.locator('h1').textContent());
+  assert.equal(await page.locator('canvas').count(), 0);
+  await page.goto('http://localhost:3300/menu', { waitUntil: 'networkidle' });
+  const routes = await page.locator('.food-category-card a').evaluateAll(elements => elements.map(element => element.getAttribute('href')));
+  assert.equal(routes.length, 9);
+  let products = 0;
+  for (const route of routes) {
+    const response = await page.goto(`http://localhost:3300${route}`, { waitUntil: 'domcontentloaded' });
+    assert.equal(response.status(), 200);
+    products += await page.locator('.food-item-card').count();
+    assert.equal(await page.locator('canvas').count(), 0);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  }
+  assert.equal(products, 48);
+  assert.deepEqual(errors, []);
+  console.log('Mobile navigation, enquiry validation/preview, Add Review validation/persistence, Back to Top, About, nine category routes and 48 products passed on production.');
+} finally { await browser.close(); }

@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Restro — Restaurant Web Application
+
+A modern, production-ready web application built exclusively for a single restaurant.
+
+> **Note:** This is a custom solution for a single restaurant, not a multi-tenant SaaS platform.
+
+---
+
+## Technology Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript (Strict Mode)
+- **Styling:** Tailwind CSS (v4)
+- **Icons:** Lucide React
+- **UI Components:** Custom reusable components with future support for shadcn/ui
+- **Database (Future):** PostgreSQL via Supabase
+- **Package Manager:** npm
+
+---
+
+## Project Structure
+
+```text
+restro/
+├── public/               # Static assets
+├── src/
+│   ├── app/              # App router pages, layouts, and styles
+│   │   ├── globals.css   # Global styles and Tailwind configuration
+│   │   ├── layout.tsx    # Root layout and metadata
+│   │   └── page.tsx      # Homepage
+│   ├── components/       # Shared UI components
+│   │   └── ui/           # Primitive/atomic UI components (shadcn-compatible)
+│   ├── features/         # Feature-specific modules
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Shared utility functions (e.g., cn)
+│   └── types/            # Shared TypeScript types
+├── .env.example          # Environment variable template
+├── .gitignore            # Git ignore configuration
+├── next.config.ts        # Next.js configuration
+├── package.json          # Dependencies and scripts
+├── tsconfig.json         # TypeScript configuration
+└── README.md             # Project documentation
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.18+ or 20+
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+### Code Quality & Validation
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Type check
+npx tsc --noEmit
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Lint
+npm run lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Design Principles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Mobile-First Responsive Design:** Prioritizes mobile usability without sacrificing tablet and desktop experiences.
+- **Performance:** Optimized font delivery with `next/font`, zero unnecessary client JS, and overflow-protected layouts.
+- **Security:** OWASP-aligned principles, strict TypeScript checks, and explicit client/server component boundaries.

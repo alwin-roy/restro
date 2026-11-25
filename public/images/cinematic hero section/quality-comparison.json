@@ -1,0 +1,137 @@
+{
+  "samples": [
+    {
+      "sourceFrame": 1,
+      "quality": 70,
+      "bytes": 83740,
+      "psnrDb": 35.794,
+      "meanRgbDifference": [
+        -0.011,
+        0.185,
+        0.442
+      ]
+    },
+    {
+      "sourceFrame": 1,
+      "quality": 75,
+      "bytes": 88240,
+      "psnrDb": 36.091,
+      "meanRgbDifference": [
+        0.115,
+        0.091,
+        0.512
+      ]
+    },
+    {
+      "sourceFrame": 1,
+      "quality": 80,
+      "bytes": 105174,
+      "psnrDb": 37.681,
+      "meanRgbDifference": [
+        0.115,
+        0.113,
+        0.436
+      ]
+    },
+    {
+      "sourceFrame": 601,
+      "quality": 70,
+      "bytes": 37530,
+      "psnrDb": 39.188,
+      "meanRgbDifference": [
+        0.056,
+        0.16,
+        0.078
+      ]
+    },
+    {
+      "sourceFrame": 601,
+      "quality": 75,
+      "bytes": 39248,
+      "psnrDb": 39.461,
+      "meanRgbDifference": [
+        0.041,
+        0.15,
+        0.042
+      ]
+    },
+    {
+      "sourceFrame": 601,
+      "quality": 80,
+      "bytes": 46978,
+      "psnrDb": 40.521,
+      "meanRgbDifference": [
+        -0.03,
+        0.217,
+        -0.056
+      ]
+    },
+    {
+      "sourceFrame": 1001,
+      "quality": 70,
+      "bytes": 22774,
+      "psnrDb": 41.015,
+      "meanRgbDifference": [
+        -0.004,
+        0.201,
+        -0.142
+      ]
+    },
+    {
+      "sourceFrame": 1001,
+      "quality": 75,
+      "bytes": 24112,
+      "psnrDb": 41.259,
+      "meanRgbDifference": [
+        0.089,
+        0.112,
+        -0.019
+      ]
+    },
+    {
+      "sourceFrame": 1001,
+      "quality": 80,
+      "bytes": 29168,
+      "psnrDb": 42.151,
+      "meanRgbDifference": [
+        0.077,
+        0.135,
+        -0.037
+      ]
+    },
+    {
+      "sourceFrame": 1675,
+      "quality": 70,
+      "bytes": 23132,
+      "psnrDb": 40.716,
+      "meanRgbDifference": [
+        0.012,
+        0.132,
+        -0.169
+      ]
+    },
+    {
+      "sourceFrame": 1675,
+      "quality": 75,
+      "bytes": 24812,
+      "psnrDb": 41.055,
+      "meanRgbDifference": [
+        0.095,
+        0.071,
+        -0.083
+      ]
+    },
+    {
+      "sourceFrame": 1675,
+      "quality": 80,
+      "bytes": 29828,
+      "psnrDb": 41.886,
+      "meanRgbDifference": [
+        0.092,
+        0.076,
+        -0.085
+      ]
+    }
+  ],
+  "decision": "Retain explicitly requested desktop q80/mobile q75. Lower desktop qualities reduce bytes but also measured source similarity. Frames are loaded progressively; the full sequence is not an initial download."
+}

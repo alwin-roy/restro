@@ -1,0 +1,108 @@
+{
+  "homepageStatus": 200,
+  "htmlWireBytes": 25645,
+  "initialHTMLReferencedAssetBytes": 1131344,
+  "scope": "Cold HTTP requests for HTML-referenced JS/CSS/images only; excludes runtime-selected video, CSS backgrounds, fonts discovered within CSS, and later image loading. Not a browser waterfall.",
+  "range": {
+    "status": 206,
+    "contentRange": "bytes 0-1023/7154847",
+    "received": 1024
+  },
+  "assets": [
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Ffried-chicken.webp&w=3840&q=75",
+      "bytes": 115860,
+      "encoding": null
+    },
+    {
+      "url": "/_next/static/chunks/3mwm0pfu8c8me.js",
+      "bytes": 7730,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fsandwiches.webp&w=3840&q=75",
+      "bytes": 96233,
+      "encoding": null
+    },
+    {
+      "url": "/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "bytes": 39627,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/static/chunks/3iz8_hoapa1o_.js",
+      "bytes": 71702,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fdesserts.webp&w=3840&q=75",
+      "bytes": 103554,
+      "encoding": null
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fwraps-rolls.webp&w=3840&q=75",
+      "bytes": 114921,
+      "encoding": null
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fburgers.webp&w=3840&q=75",
+      "bytes": 72197,
+      "encoding": null
+    },
+    {
+      "url": "/_next/static/chunks/2fuxlcqleg9x-.js",
+      "bytes": 46612,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/static/chunks/37zotgcxkaj0b.js",
+      "bytes": 11110,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/static/chunks/0wj0noag-9_fs.js",
+      "bytes": 3604,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/static/chunks/38gcicmj2x-5c.js",
+      "bytes": 16427,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fmandi.webp&w=3840&q=75",
+      "bytes": 103729,
+      "encoding": null
+    },
+    {
+      "url": "/_next/static/chunks/1pcw6gskne7pf.js",
+      "bytes": 2030,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fpizzas.webp&w=3840&q=75",
+      "bytes": 126090,
+      "encoding": null
+    },
+    {
+      "url": "/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+      "bytes": 3905,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fshawarmas.webp&w=3840&q=75",
+      "bytes": 93758,
+      "encoding": null
+    },
+    {
+      "url": "/_next/static/chunks/1o_80pta2rqin.css",
+      "bytes": 15048,
+      "encoding": "gzip"
+    },
+    {
+      "url": "/_next/image?url=%2Fimages%2Fcategories%2Fdrinks.webp&w=3840&q=75",
+      "bytes": 87207,
+      "encoding": null
+    }
+  ]
+}

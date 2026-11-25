@@ -1,0 +1,17 @@
+{
+  "times": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "rows": [
+    "before",
+    "after"
+  ],
+  "viewports": [
+    1440,
+    390
+  ],
+  "purpose": "Sample actual before/after recordings through forward and reverse scroll; compare full Canvas pixels separately in renderer-pixels.json."
+}

@@ -1,0 +1,230 @@
+{
+  "publicAssetCount": 3092,
+  "publicAssetBytes": 168123256,
+  "changedSource": [
+    "src/lib/cinematic/canvas-controller.ts",
+    "src/lib/cinematic/frame-sequence.ts"
+  ],
+  "summary": [
+    {
+      "width": 1440,
+      "before": {
+        "readyMs": 438.8495000000039,
+        "scriptMs": 982.763,
+        "taskMs": 8438.756,
+        "layoutMs": 203.768,
+        "heapMiB": 8.265495300292969,
+        "peakBitmapMiB": 66.796875,
+        "draws": 746,
+        "frameRequests": 3051,
+        "duplicateFrameRequests": 1431,
+        "coldBytes": 4133498,
+        "warmBytes": 30013,
+        "intervalP95": 16.800000000000182,
+        "over34ms": 1,
+        "frameLagP95": 313
+      },
+      "after": {
+        "readyMs": 429.4570999999996,
+        "scriptMs": 968.153,
+        "taskMs": 7083.939,
+        "layoutMs": 31.126000000000015,
+        "heapMiB": 7.671154022216797,
+        "peakBitmapMiB": 66.796875,
+        "draws": 637,
+        "frameRequests": 3105,
+        "duplicateFrameRequests": 1461,
+        "coldBytes": 4133639,
+        "warmBytes": 30020,
+        "intervalP95": 16.800000000000182,
+        "over34ms": 1,
+        "frameLagP95": 216
+      }
+    },
+    {
+      "width": 390,
+      "before": {
+        "readyMs": 368.5335999999952,
+        "scriptMs": 1139.908,
+        "taskMs": 7149.085,
+        "layoutMs": 31.411,
+        "heapMiB": 7.462039947509766,
+        "peakBitmapMiB": 25.7080078125,
+        "draws": 771,
+        "frameRequests": 2244,
+        "duplicateFrameRequests": 1017,
+        "coldBytes": 1729291,
+        "warmBytes": 10308,
+        "intervalP95": 16.80000000000109,
+        "over34ms": 1,
+        "frameLagP95": 46
+      },
+      "after": {
+        "readyMs": 368.2563999999984,
+        "scriptMs": 1137.831,
+        "taskMs": 6919.594,
+        "layoutMs": 29.522000000000006,
+        "heapMiB": 7.796550750732422,
+        "peakBitmapMiB": 25.7080078125,
+        "draws": 706,
+        "frameRequests": 2331,
+        "duplicateFrameRequests": 1089,
+        "coldBytes": 1729426,
+        "warmBytes": 10309,
+        "intervalP95": 16.80000000000109,
+        "over34ms": 1,
+        "frameLagP95": 27
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "width": 1440,
+      "name": "hero",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "1",
+      "afterFrame": "1",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 1440,
+      "name": "offers",
+      "changedPixelsPercent": 0.8327203306711504,
+      "meanChannelDifference": 0.07055894166549904,
+      "beforeFrame": "208",
+      "afterFrame": "208",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 1440,
+      "name": "menu",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0.021181115772112867,
+      "beforeFrame": "586",
+      "afterFrame": "586",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 1440,
+      "name": "reservation",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "1031",
+      "afterFrame": "1031",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 1440,
+      "name": "contact",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "1519",
+      "afterFrame": "1519",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 390,
+      "name": "hero",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "1",
+      "afterFrame": "1",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 390,
+      "name": "offers",
+      "changedPixelsPercent": 2.9449004262900043,
+      "meanChannelDifference": 0.3186231469109881,
+      "beforeFrame": "170",
+      "afterFrame": "170",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 390,
+      "name": "menu",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "619",
+      "afterFrame": "619",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 390,
+      "name": "reservation",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "826",
+      "afterFrame": "826",
+      "sameCanvasSize": true,
+      "samePixel": true
+    },
+    {
+      "width": 390,
+      "name": "contact",
+      "changedPixelsPercent": 0,
+      "meanChannelDifference": 0,
+      "beforeFrame": "1218",
+      "afterFrame": "1218",
+      "sameCanvasSize": true,
+      "samePixel": true
+    }
+  ],
+  "work": {
+    "before": {
+      "labelMutations": 178,
+      "dataMutations": 2030,
+      "draws": 36,
+      "updates": 178,
+      "frame": "37",
+      "target": "37"
+    },
+    "after": {
+      "labelMutations": 0,
+      "dataMutations": 570,
+      "draws": 36,
+      "updates": 177,
+      "frame": "37",
+      "target": "37"
+    }
+  },
+  "scheduler": {
+    "before": {
+      "calls": 30000,
+      "trials": [
+        72.6927,
+        61.9237,
+        63.44999999999999,
+        58.87669999999997,
+        92.4801,
+        55.158500000000004,
+        76.33479999999997
+      ],
+      "medianMs": 63.44999999999999,
+      "note": "Isolated repeated-target loader scheduling benchmark; excludes fetch/decode/rendering."
+    },
+    "after": {
+      "calls": 30000,
+      "trials": [
+        2.756900000000087,
+        1.3721000000000458,
+        0.6150000000000091,
+        0.405399999999986,
+        0.42880000000002383,
+        0.3753999999998996,
+        0.3025000000000091
+      ],
+      "medianMs": 0.42880000000002383,
+      "note": "Isolated repeated-target loader scheduling benchmark; excludes fetch/decode/rendering."
+    }
+  }
+}

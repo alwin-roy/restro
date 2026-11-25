@@ -1,0 +1,26 @@
+[
+  {
+    "width": 320,
+    "products": 48,
+    "categories": 9,
+    "passed": true
+  },
+  {
+    "width": 390,
+    "products": 48,
+    "categories": 9,
+    "passed": true
+  },
+  {
+    "width": 768,
+    "products": 48,
+    "categories": 9,
+    "passed": true
+  },
+  {
+    "width": 1440,
+    "products": 48,
+    "categories": 9,
+    "passed": true
+  }
+]
