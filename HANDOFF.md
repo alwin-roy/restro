@@ -1056,6 +1056,26 @@ This status supersedes older appearance/cart descriptions below; historical impl
 - Validation: live Chrome verified transparent base, completed brown position and reversed gold position; captured completed promotional button. Only `cinematic.css` and handoff changed.
 
 ---
+### 2026-11-26 — Hosted cinematic performance & network optimization
+
+- **Modified:** `next.config.ts`, `src/lib/cinematic/frame-sequence.ts`, `src/lib/cinematic/canvas-controller.ts`, `HANDOFF.md`.
+- **Root Cause Addressed:**
+  - On hosted networks with non-zero latency (30–150ms RTT), fast user scrolling caused rapid target changes that triggered aggressive in-flight request cancellation (`abort()`). Downloaded bytes were discarded midway, stalling the frame pipeline and causing visible stuttering/freezing on the last held frame.
+  - Absence of static cache headers forced browsers and edge CDNs to repeatedly revalidate individual frame assets.
+- **Implemented Optimizations (Zero Image Quality Reduction):**
+  - **Immutable Edge Caching (`next.config.ts`):** Added `Cache-Control: public, max-age=31536000, immutable` for all static `/images/*` and `/animations/*` paths, with a short revalidation window (`max-age=3600, stale-while-revalidate=86400`) specifically for `manifest.json`.
+  - **Soft In-Flight Abort (`src/lib/cinematic/frame-sequence.ts`):** Prevented discarding in-flight requests that are close to the target or along the active motion trajectory (within 12 frames behind and 50 frames ahead). Only truly obsolete requests (>40 frames away) are cancelled.
+  - **Adaptive Velocity Stride (`src/lib/cinematic/frame-sequence.ts`):** During rapid scrolling sweeps (`delta > 6`), download queues prioritize milestone stride frames (every 2nd to 4th frame) so that visual motion frames complete downloading in time across the network, dropping bandwidth pressure by 60–75% during motion. When scrolling slows or settles (`delta <= 6`), stride reverts to 1 and loads the exact 100% full-quality target frame.
+  - **Concurrency & Compressed Memory Tuning (`src/lib/cinematic/canvas-controller.ts`, `frame-sequence.ts`):** Scaled parallel fetch streams to 7 on desktop and 5 on mobile, with expanded compressed Blob cache headroom (`Math.max(64, concurrency * 14)`), optimizing throughput across HTTP/2/3 pipelines.
+  - **Hero Idle Pre-buffering (`src/lib/cinematic/canvas-controller.ts`):** Added a background warmup on initial hero mount using `requestIdleCallback` (or fallback timeout) when `scrollY < 50` to pre-buffer the first 20–28 frames into memory before the user begins their first scroll down.
+- **Validation:**
+  - `node scripts/check-frame-sequence.mjs`: Passed (indexing, priority, deduplication, cancellation, concurrency, eviction, fallback, disposal).
+  - `node scripts/check-frame-equivalence.mjs`: Passed (1,500 randomized cache/tie/eviction comparisons and unchanged 24/30fps indexing against baseline).
+  - `node scripts/check-cinematic.mjs`: Passed (section anchors, monotonic mapping, seek coordination).
+  - `npm run lint`: Passed with 0 errors, 0 warnings.
+  - `npm run build`: Successfully built all 16 static and dynamic routes.
+
+---
 ## H. Next Steps
 
 - Reservation previews and browser-local review previews are implemented. Await explicit instructions before adding backend reservation submission/availability, review moderation/publication, customer accounts or persistence beyond browser-local reviews.

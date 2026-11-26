@@ -55,13 +55,54 @@ export class FrameSequence {
     // Completion handlers already pump these windows. Rebuilding them for the
     // same target on every scroll/decode callback cannot change their priority.
     if (this.disposed || (target === this.target && this.queue.length > 0)) return;
+    const prevTarget = this.target;
     this.direction = target === this.target ? this.direction : target > this.target ? 1 : -1;
     this.target = target;
-    this.queue = frameWindow(target, this.direction, this.sequence, this.concurrency === 3 ? 20 : 36, 6);
+    const delta = Math.abs(target - prevTarget);
+
+    const ahead = this.concurrency <= 4 ? 24 : 40;
     const behind = Math.floor((this.limit - 1) / 3);
+    const baseQueue = frameWindow(target, this.direction, this.sequence, ahead, 6);
     this.decodeQueue = frameWindow(target, this.direction, this.sequence, this.limit - 1 - behind, behind);
+
+    // During rapid scroll sweeps, prioritize stride milestone frames so that
+    // incoming frames along the movement path complete downloading before they are passed.
+    if (delta > 6) {
+      const stride = delta > 18 ? 4 : delta > 10 ? 3 : 2;
+      const prioritized: number[] = [target];
+      const remaining: number[] = [];
+      for (const idx of baseQueue) {
+        if (idx === target) continue;
+        if (Math.abs(idx - target) % stride === 0) {
+          prioritized.push(idx);
+        } else {
+          remaining.push(idx);
+        }
+      }
+      this.queue = [...prioritized, ...remaining];
+    } else {
+      this.queue = baseQueue;
+    }
+
     const wanted = new Set(this.queue);
-    for (const [index, controller] of this.pending) if (!wanted.has(index)) controller.abort();
+    for (const [index, controller] of this.pending) {
+      if (wanted.has(index)) continue;
+      // Soft abort: avoid aborting in-flight requests in the active trajectory.
+      // Only abort requests that are obsolete or far from the target.
+      const dist = (index - this.target) * this.direction;
+      if (dist < -12 || dist > 50 || Math.abs(index - this.target) > 40) {
+        controller.abort();
+      }
+    }
+    this.pump();
+  }
+  warmup(start: number, count: number) {
+    if (this.disposed || this.suspended) return;
+    for (let i = start; i < Math.min(this.sequence.endIndex, start + count); i++) {
+      if (!this.compressed.has(i) && !this.queue.includes(i)) {
+        this.queue.push(i);
+      }
+    }
     this.pump();
   }
   get(index: number) { return this.cache.get(index); }
@@ -124,7 +165,7 @@ export class FrameSequence {
       }).then(blob => {
         if (this.disposed || controller.signal.aborted || !this.queue.includes(index)) return;
         this.compressed.set(index, blob);
-        this.evict(this.compressed, this.concurrency === 3 ? 40 : 64, () => {}, this.queue);
+        this.evict(this.compressed, Math.max(64, this.concurrency * 14), () => {}, this.queue);
       }).catch(() => { if (!controller.signal.aborted || timedOut) this.recordFailure(index); })
         .finally(() => { clearTimeout(timeout); this.pending.delete(index); this.pump(); if (!this.disposed) this.onFrame(); });
     }

@@ -26,7 +26,7 @@ export function startCinematicCanvas({ canvas, label, debug, onFailure }: Option
     if (!manifest) return;
     // The Canvas itself retains the old picture while its entire old cache is released.
     loader?.dispose(); held = undefined; displayed = -1; variant = next;
-    loader = new FrameSequence(manifest.sequences[next], next === 'mobile' ? 12 : 18, next === 'mobile' ? 3 : 4, schedule, fail);
+    loader = new FrameSequence(manifest.sequences[next], next === 'mobile' ? 14 : 20, next === 'mobile' ? 5 : 7, schedule, fail);
     canvas.dataset.variant = next; sizeDirty = true;
     loader.request(frameAtTime(targetTime, loader.sequence));
   }
@@ -136,7 +136,17 @@ export function startCinematicCanvas({ canvas, label, debug, onFailure }: Option
             !Number.isFinite(sequence.fps) || sequence.fps <= 0 || sequence.width <= 0 || sequence.height <= 0 || !sequence.pattern.startsWith('/images/cinematic%20hero%20section/')) throw new Error('Invalid frame manifest');
         }
         if (!value.sequences.desktop || !value.sequences.mobile || !Number.isFinite(value.duration) || value.duration <= 0) throw new Error('Incomplete frame manifest');
-        if (disposed) return; manifest = value; geometryDirty = true; schedule(); return;
+        if (disposed) return; manifest = value; geometryDirty = true; schedule();
+        if (typeof requestIdleCallback === 'function') {
+          requestIdleCallback(() => {
+            if (!disposed && scrollY < 50 && loader) loader.warmup(1, 28);
+          }, { timeout: 2000 });
+        } else {
+          setTimeout(() => {
+            if (!disposed && scrollY < 50 && loader) loader.warmup(1, 20);
+          }, 1000);
+        }
+        return;
       } catch (error) {
         if (disposed) return;
         if (attempt === 1) fail(error instanceof Error ? error.message : 'Frame manifest unavailable');
